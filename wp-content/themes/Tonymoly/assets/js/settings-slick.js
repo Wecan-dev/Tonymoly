@@ -40,9 +40,6 @@ $('.main-categories__content').slick({
         arrows: false
       }
     }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
   ]
 });
 
@@ -76,7 +73,7 @@ $('.main-product__content').slick({
       breakpoint: 600,
       settings: {
         slidesToShow: 2,
-        slidesToScroll: 1,
+        slidesToScroll: 2,
         dots: false,
         autoplay: true,
         autoplaySpeed: 5000
