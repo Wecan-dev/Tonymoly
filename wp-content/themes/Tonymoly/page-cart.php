@@ -16,7 +16,11 @@
  * @version 1.0
  */
 ?>	
-<section class="cart-custom">
+<section class="cart-custom pt-0">
+<div class="top-cart">
+	<p><span>1-3</span> Carrito de compras</p>
+</div>
+
 	<?php echo do_shortcode('[woocommerce_cart]'); ?>
 </section>
 <?php get_footer(); ?>
