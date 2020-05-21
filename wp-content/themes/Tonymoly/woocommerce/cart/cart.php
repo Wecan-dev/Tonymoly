@@ -19,6 +19,7 @@ defined( 'ABSPATH' ) || exit;
 
 do_action( 'woocommerce_before_cart' ); ?>
 
+
 <form class="woocommerce-cart-form" action="<?php echo esc_url( wc_get_cart_url() ); ?>" method="post">
 	<?php do_action( 'woocommerce_before_cart_table' ); ?>
 
@@ -65,6 +66,21 @@ do_action( 'woocommerce_before_cart' ); ?>
 								printf( '<a href="%s">%s</a>', esc_url( $product_permalink ), $thumbnail ); // PHPCS: XSS ok.
 							}
 							?>
+							<div class="product-remove remover-product" style="background: #2d2d2d; border-radius: 50%; color: #fff; right: -5px !important">
+								<?php
+									echo apply_filters( // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+										'woocommerce_cart_item_remove_link',
+										sprintf(
+											'<a href="%s" style="color:#fff !important; font-size:16px;" class="remove" aria-label="%s" data-product_id="%s" data-product_sku="%s">&times;</a>',
+											esc_url( wc_get_cart_remove_url( $cart_item_key ) ),
+											esc_html__( 'Remove this item', 'woocommerce' ),
+											esc_attr( $product_id ),
+											esc_attr( $_product->get_sku() )
+										),
+										$cart_item_key
+									);
+								?>
+							</div>
 							</div>
 						<div class="details-product">
 							<div class="product-name" data-title="<?php esc_attr_e( 'Product', 'woocommerce' ); ?>">
@@ -141,7 +157,7 @@ do_action( 'woocommerce_before_cart' ); ?>
 
 <?php do_action( 'woocommerce_before_cart_collaterals' ); ?>
 
-<div class="cart-collaterals container pt-4">
+<div class="cart-collaterals container pt-4 pb-4" style="background: #f2f2f2">
 <?php if ( wc_coupons_enabled() ) { ?>
 						<div class="coupon cupon-cart">
 							<label class="d-none" for="coupon_code"><?php esc_html_e( 'Coupon:', 'woocommerce' ); ?></label> <input type="text" name="coupon_code" class="input-text" id="coupon_code" value="" placeholder="<?php esc_attr_e( 'Ingresa un cupon o código de afiliado', 'woocommerce' ); ?>" /> <button type="submit" class="button" name="apply_coupon" value="<?php esc_attr_e( 'Aplicar', 'woocommerce' ); ?>"><?php esc_attr_e( 'Aplicar', 'woocommerce' ); ?></button>
@@ -166,10 +182,15 @@ do_action( 'woocommerce_before_cart' ); ?>
 				<td colspan="6" class="actions">
 
 
-					<button type="submit" class="button" name="update_cart" value="<?php esc_attr_e( 'Update cart', 'woocommerce' ); ?>"><?php esc_html_e( 'Update cart', 'woocommerce' ); ?></button>
+					<button type="submit" class="button d-none" name="update_cart" value="<?php esc_attr_e( 'Update cart', 'woocommerce' ); ?>"><?php esc_html_e( 'Update cart', 'woocommerce' ); ?></button>
 
 					<?php do_action( 'woocommerce_cart_actions' ); ?>
 
 					<?php wp_nonce_field( 'woocommerce-cart', 'woocommerce-cart-nonce' ); ?>
 				</td>
 			</tr>
+<div class="container">
+	<div class="regresar-product">
+		<a href="">regresar a productos</a>
+	</div>
+</div>
