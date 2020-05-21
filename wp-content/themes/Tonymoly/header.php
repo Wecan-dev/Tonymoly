@@ -59,7 +59,7 @@
       <a class="navbar-brand" href="#">Tonymoly</a>
       <div class="main-navbar__icons">
         <i class="fa fa-search" aria-hidden="true"></i>
-        <img src="<?php echo get_template_directory_uri();?>/assets/img/bag.svg" alt="">
+        <img src="<?php echo get_template_directory_uri();?>/assets/img/bag-white.svg" alt="">
       </div>
 
       <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
