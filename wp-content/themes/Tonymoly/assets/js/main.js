@@ -1,8 +1,35 @@
 new WOW().init();
- 
+
+$(function () {
+  'use strict'
+
+  $('.navbar-toggler').on('click', function () {
+    $('.offcanvas-collapse').toggleClass('open')
+  })
+})
+
+
+// menu hambuger
+$(".hamburger").on("click", function () {
+  if (!$(this).hasClass("is-active")) {
+    $(this).addClass("is-active")
+    $('.navbar-fixed-js').addClass('fixed');
+    $('.hamburger-inner').addClass('js-hamburger');
+    $('.nav-link').addClass('fixed-color');
+  } else {
+    $(this).removeClass("is-active")
+    if ($(document).scrollTop() <= 70 && ($(window).width() >= 0)) {
+      $('.navbar-fixed-js').removeClass('fixed');
+      $('.hamburger-inner').removeClass('js-hamburger');
+      $('.nav-link').removeClass('fixed-color');
+
+    }
+  }
+});
+
 WebFont.load({
   google: {
-    families: ['Montserrat:300,400,500,600,700,900']
+    families: ['Montserrat:300,400,500,600,700,900', 'Muli:300,400,500,600,700,900']
   }
 });
 
@@ -83,4 +110,34 @@ $(window).scroll(function () {
     $('.navbar').removeClass('fixed-top');
 
   }
+});
+
+
+
+
+
+
+
+
+$(document).ready(function() {
+  var $slider = $('.main-productfull__content');
+  var $progressBar = $('.progress');
+  var $progressBarLabel = $( '.slider__label' );
+  
+  $slider.on('beforeChange', function(event, slick, currentSlide, nextSlide) {   
+    var calc = ( (nextSlide) / (slick.slideCount-1) ) * 100;
+    
+    $progressBar
+      .css('background-size', calc + '% 100%')
+      .attr('aria-valuenow', calc );
+    
+    $progressBarLabel.text( calc + '% completed' );
+  });
+  
+  $slider.slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    speed: 400,
+    arrows:false
+  });  
 });

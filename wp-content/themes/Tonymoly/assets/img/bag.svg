@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22.537" height="25.877" viewBox="0 0 22.537 25.877">
+    <defs>
+        <style>
+            .prefix__cls-1{fill:#fff;stroke:#fff;stroke-width:.5px}
+        </style>
+    </defs>
+    <g id="prefix__bag" transform="translate(-33.439 .25)">
+        <g id="prefix__Grupo_11051" data-name="Grupo 11051" transform="translate(33.689 6.337)">
+            <g id="prefix__Grupo_11050" data-name="Grupo 11050">
+                <path id="prefix__Trazado_43697" d="M55.7 145.837l-1.313-17.3a.793.793 0 0 0-.791-.733H35.807a.793.793 0 0 0-.791.734L33.692 146a.793.793 0 0 0 .791.853h20.45a.794.794 0 0 0 .793-.794.785.785 0 0 0-.026-.222zm-20.358-.576l1.2-15.867h16.314l1.2 15.867z" class="prefix__cls-1" data-name="Trazado 43697" transform="translate(-33.689 -127.808)"/>
+            </g>
+        </g>
+        <g id="prefix__Grupo_11053" data-name="Grupo 11053" transform="translate(38.353)">
+            <g id="prefix__Grupo_11052" data-name="Grupo 11052">
+                <path id="prefix__Trazado_43698" d="M134.082 0a6.355 6.355 0 0 0-6.347 6.348V9.51a.793.793 0 1 0 1.587 0V6.348a4.76 4.76 0 1 1 9.52 0V9.51a.793.793 0 1 0 1.587 0V6.348A6.355 6.355 0 0 0 134.082 0z" class="prefix__cls-1" data-name="Trazado 43698" transform="translate(-127.735)"/>
+            </g>
+        </g>
+    </g>
+</svg>

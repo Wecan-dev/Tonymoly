@@ -1,24 +1,56 @@
 <?php get_header(); ?>
 
-<!-- banner -->
-<?php // get_template_part('partials/banner'); ?>
+<section class="main-productfull">
+  <div class="container container__position">
+    <div class="main-productfull__content">
+      <div class="main-productfull__item">
+        <div class="main-productfull__img">
+          <img src="<?php echo get_template_directory_uri();?>/assets/img/ProductFull/1.jpg" alt="">
+        </div>
+        <div class="main-productFull__btn">
+          <a class="btn_custom btn--small btn--filled arrowsline" href="#">
+            Comprar      
+          </a>
+        </div>
+      </div>
+      <div class="main-productfull__item">
+        <div class="main-productfull__img">
+          <img src="<?php echo get_template_directory_uri();?>/assets/img/ProductFull/1.jpg" alt="">
+        </div>
+        <div class="main-productFull__btn">
+          <a class="btn_custom btn--small btn--filled arrowsline" href="#">
+            Comprar      
+          </a>
+        </div>
+      </div>
+      <div class="main-productfull__item">
+        <div class="main-productfull__img">
+          <img src="<?php echo get_template_directory_uri();?>/assets/img/ProductFull/1.jpg" alt="">
+        </div>
+        <div class="main-productFull__btn">
+          <a class="btn_custom btn--small btn--filled arrowsline" href="#">
+            Comprar      
+          </a>
+        </div>
+      </div>
+    </div>
 
-<!-- form -->
-<?php // get_template_part('partials/contact-banner'); ?>
+    <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+      <span class="slider__label sr-only">
+    </div>
+    </span>
+  </div>
+</section>
 
-<!-- about -->
-<?php // get_template_part('partials/about'); ?>
-
-<!-- nearby-->
-<?php // get_template_part('partials/nearby'); ?>
-
-<!-- properties-->
-<?php // get_template_part('partials/properties'); ?>
-
-<!-- ubication-->
-<?php // get_template_part('partials/ubication'); ?>
-
-<!-- contact footer-->
-<?php // get_template_part('partials/contact-footer'); ?>
+<section class="main-categories">
+  <div class="container">
+    <div class="main-categories__content">
+      <div class="main-categories__item">
+        <div class="main-categories__card">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <?php get_footer(); ?>
