@@ -120,7 +120,7 @@ body {
 .hamburger-inner,
 .hamburger-inner::before,
 .hamburger-inner::after {
-  width: 35px;
+  width: 30px;
   height: 3px;
   background-color: #fff;
   border-radius: 3px;

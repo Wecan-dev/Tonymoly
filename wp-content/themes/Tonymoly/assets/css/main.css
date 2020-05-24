@@ -352,7 +352,7 @@
 
   .main-title__general.main-title__general--center p{
     font-size: 22px;
-    margin-bottom: 0;
+    /* margin-bottom: 0; */
   }
 
   .main-title__general.main-title__general--center span{
