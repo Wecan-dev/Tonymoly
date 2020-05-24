@@ -52,7 +52,9 @@
   <div class="pd-top">
     <div class="main-navsingletv">
       <div class="main-navsingletv__arrowl">
-      <i class="fa fa-angle-left" aria-hidden="true"></i>
+        <a href="<?php echo bloginfo('url'); ?>/tony-tv">
+          <i class="fa fa-angle-left" aria-hidden="true"></i>
+        </a>
       </div>
       <div class="container main-title__general main-title__general--center">
         <p>TONY. <span>TV</span></p>
@@ -66,7 +68,7 @@
             <div class="main-blog__card">
             
               <a href="">
-                <div class="main-blog__img">
+                <div class="main-blog__img main-singletv__img">
                   <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" alt="">
                 </div>
               </a>

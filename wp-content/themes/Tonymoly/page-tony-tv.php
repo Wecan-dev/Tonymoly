@@ -17,9 +17,9 @@
               </div>
             </div>
         </div>
-          <a href="">
+          <a href="<?php echo bloginfo('url'); ?>/single-tv">
             <div class="main-blog__img main-generaltv__img">
-              <img src="<?php echo get_template_directory_uri();?>/assets/img/ProductFull/1.jpg" alt="">
+            <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" alt="">
             </div>
           </a>
           <div class="main-blog__box">
@@ -65,7 +65,7 @@
             </div>
         </div>
           <div class="main-blog__img main-generaltv__img">
-            <img src="<?php echo get_template_directory_uri();?>/assets/img/ProductFull/1.jpg" alt="">
+          <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" alt="">
           </div>
           <div class="main-blog__box">
             <div class="main-generaltv__box">
