@@ -38,14 +38,14 @@ if(is_user_logged_in() != NULL)
 
       <div class="login-block">
 
-        <?php echo do_shortcode('[TheChamp-Login style="background-color:#000;"]') ?>
-        
+        <!--        <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div> -->
+       
 
-        <div class="login-block -narrow">
+       <div class="login-block -narrow">
 
-          <?php
+        <?php
 
-          if ( ! defined( 'ABSPATH' ) ) {
+        if ( ! defined( 'ABSPATH' ) ) {
   exit; // Exit if accessed directly.
 }
 
