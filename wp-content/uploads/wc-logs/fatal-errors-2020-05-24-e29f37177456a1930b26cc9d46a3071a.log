@@ -1,0 +1,16 @@
+2020-05-24T20:42:39+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on null in /var/www/html/Tonymoly/wp-content/themes/Tonymoly/home.php:133
+Stack trace:
+#0 /var/www/html/Tonymoly/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/Tonymoly/wp-blog-header.php(19): require_once('/var/www/html/T...')
+#2 /var/www/html/Tonymoly/index.php(17): require('/var/www/html/T...')
+#3 {main}
+  thrown in /var/www/html/Tonymoly/wp-content/themes/Tonymoly/home.php on line 133
+
+2020-05-24T20:42:48+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on null in /var/www/html/Tonymoly/wp-content/themes/Tonymoly/home.php:133
+Stack trace:
+#0 /var/www/html/Tonymoly/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/Tonymoly/wp-blog-header.php(19): require_once('/var/www/html/T...')
+#2 /var/www/html/Tonymoly/index.php(17): require('/var/www/html/T...')
+#3 {main}
+  thrown in /var/www/html/Tonymoly/wp-content/themes/Tonymoly/home.php on line 133
+
