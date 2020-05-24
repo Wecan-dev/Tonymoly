@@ -1,5 +1,4 @@
 
-
 <div class="pd-top">
   <nav class="navbar navbar-expand-md fixed-top">
     <button class="navbar-toggler p-2 border-0 hamburger hamburger--elastic ml-autos" data-toggle="offcanvas" type="button">
@@ -9,10 +8,15 @@
     </button>
     <a class="navbar-brand" href="<?php echo bloginfo('url'); ?>">Tonymoly</a>
     <div class="main-navbar__icons">
-      <i class="fa fa-search" aria-hidden="true"></i>
+      <div class="search-container">
+        <form action="/search" method="get">
+          <input class="search expandright" id="searchright" type="search" name="q" placeholder="Search">
+          <label class="button searchbutton" for="searchright"><span class="mglass">&#9906;</span></label>
+        </form>
+      </div>
       <a href="<?php echo bloginfo('url'); ?>/cart"> <img src="<?php echo get_template_directory_uri();?>/assets/img/bag-white.svg" alt=""></a>
     </div>
-    
+
     <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
       <div class="main-navbar__profile">
         <div class="main-navbar__img">
@@ -61,3 +65,99 @@
   <div class="main-huincha">
     <p class="text-white">Registrate y obten un 15% en tu primera compra</p>
   </div>
+
+  <style>
+
+    .button {
+      display: inline-block;
+      margin: 4px 2px;
+      font-size: 14px;
+      padding-left: 32px;
+      padding-right: 32px;
+      height: 50px;
+      line-height: 50px;
+      text-align: center;
+      color: white;
+      text-decoration: none;
+      cursor: pointer;
+      -moz-user-select: none;
+      -khtml-user-select: none;
+      -webkit-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    .button:hover {
+      transition-duration: 0.4s;
+      -moz-transition-duration: 0.4s;
+      -webkit-transition-duration: 0.4s;
+      -o-transition-duration: 0.4s;
+      background-color: white;
+      color: black;
+    }
+
+    .search-container {
+      position: relative;
+      display: inline-block;
+      margin: 4px 2px;
+      height: 50px;
+      width: 50px;
+      vertical-align: bottom;
+    }
+
+    .mglass {
+      display: inline-block;
+      pointer-events: none;
+      -webkit-transform: rotate(-45deg);
+      -moz-transform: rotate(-45deg);
+      -o-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+    }
+
+    .searchbutton {
+      position: absolute;
+      font-size: 30px;
+      width: 85%;
+      margin: 0;
+      padding: 0;
+    }
+
+    .search:focus + .searchbutton {
+      transition-duration: 0.4s;
+      -moz-transition-duration: 0.4s;
+      -webkit-transition-duration: 0.4s;
+      -o-transition-duration: 0.4s;
+      background-color: white;
+      color: black;
+    }
+
+    .search {
+      position: absolute;
+      left: 49px; /* Button width-1px (Not 50px/100% because that will sometimes show a 1px line between the search box and button) */
+      background-color: white;
+      outline: none;
+      border: none;
+      padding: 0;
+      width: 0;
+      height: 100%;
+      z-index: 10;
+      transition-duration: 0.4s;
+      -moz-transition-duration: 0.4s;
+      -webkit-transition-duration: 0.4s;
+      -o-transition-duration: 0.4s;
+    }
+
+    .search:focus {
+      width: 10rem; /* Bar width+1px */
+      padding: 0 16px 0 0;
+    }
+
+    .expandright {
+      left: auto;
+      right: 49px; /* Button width-1px */
+    }
+
+    .expandright:focus {
+      padding: 0 0 0 16px;
+    }
+  </style>

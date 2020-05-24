@@ -38,6 +38,7 @@
   <meta name="google-signin-client_id" content="10440841093-jmo2kn3d9728s7lmpkb5gen61pm56ka3.apps.googleusercontent.com">
   <script src="https://apis.google.com/js/platform.js" async defer></script>
 -->
+
 <!-- Links -->
 <link href='<?php echo get_template_directory_uri();?>/assets/css/bootstrap.min.css' rel='stylesheet'>
 <link href='<?php echo get_template_directory_uri();?>/assets/css/animate/animate.css' rel='stylesheet'>
@@ -48,7 +49,8 @@
 <link href='<?php echo get_template_directory_uri();?>/assets/css/t-responsive.css' rel='stylesheet'>
 <link href='<?php echo get_template_directory_uri();?>/assets/css/offcanvas.css' rel='stylesheet'>
 <link href="<?php echo get_template_directory_uri();?>/assets/img/favicon-32x32.png"  rel="icon" type="image/png" sizes="32x32">
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@800;900&display=swap" rel="stylesheet">
 <?php wp_head(); ?>
+
 </head>
 <body>
-
