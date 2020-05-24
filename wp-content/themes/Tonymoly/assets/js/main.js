@@ -8,6 +8,14 @@ $(function () {
   })
 })
 
+$(function () {
+  'use strict'
+
+  $('.scroll-link').on('click', function () {
+    $('.offcanvas-collapse').toggleClass('open')
+  })
+})
+
 
 // menu hambuger
 $(".hamburger").on("click", function () {

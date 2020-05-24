@@ -425,6 +425,9 @@
         <div class="main-tv__card">
           <div class="main-tv__img">
             <img src="<?php echo get_template_directory_uri();?>/assets/img/ProductFull/1.jpg" alt="">
+            <div class="main-tv-oval">
+              <i class="fa fa-play" aria-hidden="true"></i>
+            </div>
           </div>
           <div class="main-tv__box">
             <div class="font-general main-tv__date">
@@ -440,6 +443,9 @@
         <div class="main-tv__card">
           <div class="main-tv__img">
             <img src="<?php echo get_template_directory_uri();?>/assets/img/ProductFull/1.jpg" alt="">
+            <div class="main-tv-oval">
+              <i class="fa fa-play" aria-hidden="true"></i>
+            </div>
           </div>
           <div class="main-tv__box">
             <div class="font-general main-tv__date">
