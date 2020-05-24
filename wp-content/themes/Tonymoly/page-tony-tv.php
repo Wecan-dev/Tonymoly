@@ -1,28 +1,30 @@
 <?php get_header(); ?>
 <section class="main-blog">
   <div class="container">
-    <div class="main-blog__content main-singletv__content">
+    <div class="main-blog__content main-generaltv__content">
       <div class="main-blog__item">
         <div class="main-blog__card">
-        <div class="main-singletv__profile">
-            <div class="main-singletv__imgProfile">
+        <div class="main-generaltv__profile">
+            <div class="main-generaltv__imgProfile">
               <img src="<?php echo get_template_directory_uri();?>/assets/img/profile.png" alt="">
             </div>
-            <div class="main-singletv__info">
-              <div class="main-singletv__name">
+            <div class="main-generaltv__info">
+              <div class="main-generaltv__name">
                 <p>Louis Chandler</p>
               </div>
-              <div class="main-singletv__complete">
+              <div class="main-generaltv__complete">
                 <span>Maquillador</span>
               </div>
             </div>
         </div>
-          <div class="main-blog__img main-singletv__img">
-            <img src="<?php echo get_template_directory_uri();?>/assets/img/ProductFull/1.jpg" alt="">
-          </div>
+          <a href="">
+            <div class="main-blog__img main-generaltv__img">
+              <img src="<?php echo get_template_directory_uri();?>/assets/img/ProductFull/1.jpg" alt="">
+            </div>
+          </a>
           <div class="main-blog__box">
-            <div class="main-singletv__box">
-              <div class="main-singletv__dates">
+            <div class="main-generaltv__box">
+              <div class="main-generaltv__dates">
                 <a href="">
                   <i class="fa fa-heart-o" aria-hidden="true"></i>
                   Like
@@ -37,9 +39,9 @@
                 <p>Marzo 26, 2020</p>
               </div>
             </div>
-            <div class="font-general main-blog__title">
+            <a href="#" class="font-general main-blog__title">
               <p>Como conseguir un maquillaje de noche para una boda</p>
-            </div>
+            </a>
             <div class="font-general main-blog__description">
               <p>Lorem ipsum dosectetur adipisicing elit, sed do. Lorem ipsum dolor consectetur…</p>
             </div>
@@ -49,25 +51,25 @@
 
       <div class="main-blog__item">
         <div class="main-blog__card">
-        <div class="main-singletv__profile">
-            <div class="main-singletv__imgProfile">
+        <div class="main-generaltv__profile">
+            <div class="main-generaltv__imgProfile">
               <img src="<?php echo get_template_directory_uri();?>/assets/img/profile.png" alt="">
             </div>
-            <div class="main-singletv__info">
-              <div class="main-singletv__name">
+            <div class="main-generaltv__info">
+              <div class="main-generaltv__name">
                 <p>Louis Chandler</p>
               </div>
-              <div class="main-singletv__complete">
+              <div class="main-generaltv__complete">
                 <span>Maquillador</span>
               </div>
             </div>
         </div>
-          <div class="main-blog__img main-singletv__img">
+          <div class="main-blog__img main-generaltv__img">
             <img src="<?php echo get_template_directory_uri();?>/assets/img/ProductFull/1.jpg" alt="">
           </div>
           <div class="main-blog__box">
-            <div class="main-singletv__box">
-              <div class="main-singletv__dates">
+            <div class="main-generaltv__box">
+              <div class="main-generaltv__dates">
                 <a href="">
                   <i class="fa fa-heart-o" aria-hidden="true"></i>
                   Like
