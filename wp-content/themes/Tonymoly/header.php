@@ -34,6 +34,9 @@
   <meta content='' property='og:description'>
   <meta property="og:type" content="">
   <meta property="og:image" content="">
+  <meta name="google-signin-scope" content="profile email">
+  <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
 
   <!-- Links -->
   <link href='<?php echo get_template_directory_uri();?>/assets/css/bootstrap.min.css' rel='stylesheet'>

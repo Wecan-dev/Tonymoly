@@ -26,7 +26,7 @@ define( 'DB_NAME', 'tonymoly' );
 define( 'DB_USER', 'admin' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', '123456' );
+define( 'DB_PASSWORD', 'di mi clave' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
