@@ -66,7 +66,7 @@
         <div class="main-blog__content main-generaltv__content">
           <div class="main-blog__item">
             <div class="main-blog__card">
-            
+
               <a href="">
                 <div class="main-blog__img main-singletv__img">
                   <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" alt="">
@@ -90,29 +90,29 @@
                   </div>
                 </div>
                 <a href="#" class="font-general main-blog__title">
-                  <p>Como conseguir un maquillaje de noche para una boda</p>
+                  <p><?php the_title(); ?></p>
                 </a>
                 <div class="font-general main-blog__description">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias unde atque molestiae tempore officia accusantium! Fuga earum dignissimos, animi blanditiis eum provident autem doloremque. Et mollitia a reprehenderit at sit.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, velit rem recusandae ipsum inventore laboriosam! Dolorum corrupti eaque repellat culpa optio distinctio odit, id nisi debitis. Amet eos totam blanditiis!
-                  </p>
-                </div>
+                  <p><?php the_content(); ?>
+                </p>
               </div>
             </div>
-          </div>          
-        </div>
+          </div>
+        </div>          
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="main-goup">
-      <div class="container">
-        <div class="main-goup__btn">
-          <a class="btn_custom btn--medium btn--filledTransparentB" href="#">
-            CARGAR MAS COMENTARIOS
-          </a>
-        </div>
+  <section class="main-goup">
+    <div class="container">
+      <div class="main-goup__btn">
+        <a class="btn_custom btn--medium btn--filledTransparentB" href="#">
+          CARGAR MAS COMENTARIOS
+        </a>
       </div>
-    </section>
+    </div>
+  </section>
 
-    
-<?php get_footer(); ?>
+  
+  <?php get_footer(); ?>
+

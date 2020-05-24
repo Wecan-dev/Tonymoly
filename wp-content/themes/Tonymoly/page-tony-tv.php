@@ -2,98 +2,60 @@
 <section class="main-blog">
   <div class="container">
     <div class="main-blog__content main-generaltv__content">
-      <div class="main-blog__item">
-        <div class="main-blog__card">
-        <div class="main-generaltv__profile">
-            <div class="main-generaltv__imgProfile">
-              <img src="<?php echo get_template_directory_uri();?>/assets/img/profile.png" alt="">
-            </div>
-            <div class="main-generaltv__info">
-              <div class="main-generaltv__name">
-                <p>Louis Chandler</p>
-              </div>
-              <div class="main-generaltv__complete">
-                <span>Maquillador</span>
-              </div>
-            </div>
-        </div>
-          <a href="<?php echo bloginfo('url'); ?>/single-tv">
-            <div class="main-blog__img main-generaltv__img">
-            <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" alt="">
-            </div>
-          </a>
-          <div class="main-blog__box">
-            <div class="main-generaltv__box">
-              <div class="main-generaltv__dates">
-                <a href="">
-                  <i class="fa fa-heart-o" aria-hidden="true"></i>
-                  Like
-                </a>
-                <a href="">
-                  <i class="fa fa-comment-o" aria-hidden="true"></i>
-                  4 Comentarios
-                </a>
-                
-              </div>
-              <div class="font-general main-blog__date">
-                <p>Marzo 26, 2020</p>
-              </div>
-            </div>
-            <a href="#" class="font-general main-blog__title">
-              <p>Como conseguir un maquillaje de noche para una boda</p>
-            </a>
-            <div class="font-general main-blog__description">
-              <p>Lorem ipsum dosectetur adipisicing elit, sed do. Lorem ipsum dolor consectetur…</p>
-            </div>
-          </div>
-        </div>
-      </div>
 
-      <div class="main-blog__item">
-        <div class="main-blog__card">
-        <div class="main-generaltv__profile">
-            <div class="main-generaltv__imgProfile">
-              <img src="<?php echo get_template_directory_uri();?>/assets/img/profile.png" alt="">
-            </div>
-            <div class="main-generaltv__info">
-              <div class="main-generaltv__name">
-                <p>Louis Chandler</p>
+      <?php $args = array( 'post_type' => 'tonytv');?>   
+      <?php $loop = new WP_Query( $args ); ?>
+      <?php while ($loop->have_posts()) : $loop->the_post();  global $product; ?>
+
+        <div class="main-blog__item">
+          <div class="main-blog__card">
+            <div class="main-generaltv__profile">
+              <div class="main-generaltv__imgProfile">
+                <img src="<?php echo get_template_directory_uri();?>/assets/img/profile.png" alt="">
               </div>
-              <div class="main-generaltv__complete">
-                <span>Maquillador</span>
+              <div class="main-generaltv__info">
+                <div class="main-generaltv__name">
+                  <p>Louis Chandler</p>
+                </div>
+                <div class="main-generaltv__complete">
+                  <span>Maquillador</span>
+                </div>
               </div>
             </div>
-        </div>
-          <div class="main-blog__img main-generaltv__img">
-          <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" alt="">
+            <a href="<?php the_permalink();?>">
+              <div class="main-blog__img main-generaltv__img">
+                <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
+              </div>
+            </a>
+            <div class="main-blog__box">
+              <div class="main-generaltv__box">
+                <div class="main-generaltv__dates">
+                  <a href="">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                    Like
+                  </a>
+                  <a href="">
+                    <i class="fa fa-comment-o" aria-hidden="true"></i>
+                    4 Comentarios
+                  </a>
+
+                </div>
+                <div class="font-general main-blog__date">
+                  <p>Marzo 26, 2020</p>
+                </div>
+              </div>
+              <a href="#" class="font-general main-blog__title">
+                <p><?php the_title(); ?></p>
+              </a>
+              <div class="font-general main-blog__description">
+                <p><?php the_content(); ?></p>
+              </div>
+            </div>
           </div>
-          <div class="main-blog__box">
-            <div class="main-generaltv__box">
-              <div class="main-generaltv__dates">
-                <a href="">
-                  <i class="fa fa-heart-o" aria-hidden="true"></i>
-                  Like
-                </a>
-                <a href="">
-                  <i class="fa fa-comment-o" aria-hidden="true"></i>
-                  4 Comentarios
-                </a>
-                
-              </div>
-              <div class="font-general main-blog__date">
-                <p>Marzo 26, 2020</p>
-              </div>
-            </div>
-            <div class="font-general main-blog__title">
-              <p>Como conseguir un maquillaje de noche para una boda</p>
-            </div>
-            <div class="font-general main-blog__description">
-              <p>Lorem ipsum dosectetur adipisicing elit, sed do. Lorem ipsum dolor consectetur…</p>
-            </div>
-          </div>
         </div>
-      </div>
-      
+      <?php endwhile; ?>
+
+
     </div>
   </div>
 </section>
@@ -106,7 +68,7 @@
         </div>
         <div class="main-ctshare__btn">
           <a class="btn_custom btn--medium btn--filledBlack  " href="#">
-          CLICK AQUI PARA COMPARTIR
+            CLICK AQUI PARA COMPARTIR
           </a>
         </div>
       </div>

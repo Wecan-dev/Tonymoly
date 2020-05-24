@@ -44,9 +44,9 @@ WebFont.load({
 
 $(window).scroll(function() {
   if ($(this).scrollTop()) {
-      $('.js-gotop').fadeIn();
+    $('.js-gotop').fadeIn();
   } else {
-      $('.js-gotop').fadeOut();
+    $('.js-gotop').fadeOut();
   }
 });
 
@@ -75,13 +75,13 @@ $(document).ready(function(){
 
 $(document).ready(function() {
   $('#toscana-slider').on('init', function(e, slick) {
-      var $firstAnimatingElements = $('div.main-slider__item:first-child').find('[data-animation]');
-      doAnimations($firstAnimatingElements);    
+    var $firstAnimatingElements = $('div.main-slider__item:first-child').find('[data-animation]');
+    doAnimations($firstAnimatingElements);    
   });
 
   $('#toscana-slider').on('beforeChange', function(e, slick, currentSlide, nextSlide) {
-      var $animatingElements = $('div.main-slider__item[data-slick-index="' + nextSlide + '"]').find('[data-animation]');
-      doAnimations($animatingElements);    
+    var $animatingElements = $('div.main-slider__item[data-slick-index="' + nextSlide + '"]').find('[data-animation]');
+    doAnimations($animatingElements);    
   });
 
   $('.main-slider').slick({
@@ -136,8 +136,8 @@ $(document).ready(function() {
     var calc = ( (nextSlide) / (slick.slideCount-1) ) * 100;
     
     $progressBar
-      .css('background-size', calc + '% 100%')
-      .attr('aria-valuenow', calc );
+    .css('background-size', calc + '% 100%')
+    .attr('aria-valuenow', calc );
     
     $progressBarLabel.text( calc + '% completed' );
   });
@@ -149,3 +149,7 @@ $(document).ready(function() {
     arrows:false
   });  
 });
+
+
+
+
