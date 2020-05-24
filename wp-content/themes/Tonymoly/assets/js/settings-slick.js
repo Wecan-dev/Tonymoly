@@ -8,7 +8,7 @@ $('.main-categories__content').slick({
   slidesToScroll: 1,
   arrows: false
 
-});
+}); 
 
 $('.main-product__content').slick({
   infinite: true,
