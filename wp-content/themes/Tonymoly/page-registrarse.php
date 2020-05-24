@@ -17,6 +17,7 @@
 
 ?>
 <?php  get_header(); ?>
+<?php get_template_part('partials/header-general'); ?>
 
 <section id="iniciar-sesion" class="margin-top-page">
   <div class="container">

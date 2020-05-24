@@ -26,7 +26,7 @@ if(is_user_logged_in() != NULL)
 
 ?>
 <?php  get_header(); ?>
-
+<?php get_template_part('partials/header-general'); ?>
 <section id="iniciar-sesion" class="margin-top-page">
   <div class="container">
     <div class="title-page text-center">
@@ -40,13 +40,13 @@ if(is_user_logged_in() != NULL)
       <div class="login-block">
 
         <!--        <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div> -->
-       
+        
 
-       <div class="login-block -narrow">
+        <div class="login-block -narrow">
 
-        <?php
+          <?php
 
-        if ( ! defined( 'ABSPATH' ) ) {
+          if ( ! defined( 'ABSPATH' ) ) {
   exit; // Exit if accessed directly.
 }
 

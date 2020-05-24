@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<?php get_template_part('partials/header-general'); ?>
 <?php
 /**
  * The template for displaying all pages
@@ -17,9 +18,9 @@
  */
 ?>	
 <section class="cart-custom pt-0">
-<div class="top-cart">
-	<p><span>1-3</span> Carrito de compras</p>
-</div>
+	<div class="top-cart">
+		<p><span>1-3</span> Carrito de compras</p>
+	</div>
 
 	<?php echo do_shortcode('[woocommerce_cart]'); ?>
 </section>

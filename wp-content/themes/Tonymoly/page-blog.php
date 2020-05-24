@@ -1,13 +1,20 @@
 <?php get_header(); ?>
-
+<?php get_template_part('partials/header-general'); ?>
 
 <section class="main-blog">
   <div class="container">
     <div class="main-blog__content">
+
+     <?php $args = array( 'post_type' => 'post');?>   
+     <?php $loop = new WP_Query( $args ); ?>
+     <?php while ($loop->have_posts()) : $loop->the_post();  global $product; ?>
+
       <div class="main-blog__item">
         <div class="main-blog__card">
           <div class="main-blog__img">
-            <img src="https://images.unsplash.com/photo-1565250346928-2b972b757a89?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="">
+            <a href="<?php the_permalink(); ?>">
+              <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
+            </a>
           </div>
           <div class="main-blog__huincha">
             <p>STYLE</p>
@@ -17,39 +24,21 @@
               <p>Marzo 26, 2020</p>
             </div>
             <div class="font-general main-blog__title">
-              <p>Como conseguir un maquillaje de noche para una boda</p>
-            </div>
-            <div class="font-general main-blog__description">
-              <p>Lorem ipsum dosectetur adipisicing elit, sed do. Lorem ipsum dolor consectetur…</p>
-            </div>
+             <a href="<?php the_permalink(); ?>">
+              <p><?php the_title(); ?></p>
+            </a>
+          </div>
+          <div class="font-general main-blog__description">
+            <p><?php the_content(); ?></p>
           </div>
         </div>
       </div>
-
-      <div class="main-blog__item">
-        <div class="main-blog__card">
-          <div class="main-blog__img">
-            <img src="https://images.unsplash.com/photo-1589960062943-bfb9f51756fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" alt="">
-          </div>
-          <div class="main-blog__huincha">
-            <p>fashion</p>
-          </div>
-          <div class="main-blog__box">
-            <div class="font-general main-blog__date">
-              <p>Marzo 26, 2020</p>
-            </div>
-            <div class="font-general main-blog__title">
-              <p>Como conseguir un maquillaje de noche para una boda</p>
-            </div>
-            <div class="font-general main-blog__description">
-              <p>Lorem ipsum dosectetur adipisicing elit, sed do. Lorem ipsum dolor consectetur…</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
     </div>
-  </div>
+  <?php endwhile; ?>
+
+
+</div>
+</div>
 </section>
 
 <section class="main-goup">

@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<?php get_template_part('partials/header-general'); ?>
 <?php
 /**
  * The template for displaying all pages

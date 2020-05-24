@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<?php get_template_part('partials/header-general'); ?>
 <section class="main-blog">
   <div class="container">
     <div class="main-blog__content main-generaltv__content">
