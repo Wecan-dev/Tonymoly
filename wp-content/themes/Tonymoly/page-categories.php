@@ -1,11 +1,10 @@
 <?php get_header(); ?>
 
-<section class="main-categories">
-  <div class="">
-    <div class="main-title__between container">
-      <div class="main-title__general">
-        <p>Categorias populares</p>
-      </div>
+<section class="main-categories main-categories--view">
+  <div class="container">
+    
+    <div class="main-title__general">
+      <p>Categorias populares</p>
     </div>
     <div class="main_content-categories-w">
       <?php $args = array(

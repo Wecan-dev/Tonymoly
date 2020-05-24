@@ -30,7 +30,8 @@ if(is_user_logged_in() != NULL)
 <section id="iniciar-sesion" class="margin-top-page">
   <div class="container">
     <div class="title-page text-center">
-      <h1>Iniciar Sesión</h1>
+      <h2><strong>Iniciar Sesión</strong></h2>
+      <p>Inicia sesión rapido usando</p>
     </div>
 
     <div class="login-box">
@@ -58,29 +59,30 @@ do_action( 'woocommerce_before_customer_login_form' ); ?>
 <?php endif; ?>
 
 
-<form class="login-form" method="post">
+<form class="login-form login-form-sesion" method="post">
 
   <?php do_action( 'woocommerce_login_form_start' ); ?>
   <div class="form-group">
     <label for="username" class="sr-only">Nombre de usuario</label>
-    <input type="text"  name="username" id="username" autocomplete="username" placeholder="Nombre de Usuario" value="<?php echo ( ! empty( $_POST['username'] ) ) ? esc_attr( wp_unslash( $_POST['username'] ) ) : ''; ?>" /><?php // @codingStandardsIgnoreLine ?>     
+    <input type="text"  name="username" id="username" autocomplete="username" placeholder="" value="<?php echo ( ! empty( $_POST['username'] ) ) ? esc_attr( wp_unslash( $_POST['username'] ) ) : ''; ?>" /><?php // @codingStandardsIgnoreLine ?>     
   </div>       
   <div class="form-group">  
-    <input type="password" placeholder="Contraseña" name="password" id="password" autocomplete="current-password" />
-    <a class="forgot" href="<?php echo get_home_url() ?>/index.php/olvidaste-contrasena">¿Lo olvidaste?</a> 
+    <input type="password" placeholder="" name="password" id="password" autocomplete="current-password" />
     
   </div> 
-
+  
   <?php do_action( 'woocommerce_login_form' ); ?>
-
-  <p class="form-row">
+  
+  <p class="form-row form-row-sesion ">
     <label class="woocommerce-form__label woocommerce-form__label-for-checkbox woocommerce-form-login__rememberme">
-      <input class="woocommerce-form__input woocommerce-form__input-checkbox" name="rememberme" type="checkbox" id="rememberme" value="forever" checked="checked" /> <span><?php esc_html_e( 'Recuerdame', 'woocommerce' ); ?></span>
+      
+      <input class="woocommerce-form__input woocommerce-form__input-checkbox" name="rememberme" type="checkbox" id="rememberme" value="forever" checked="checked" /> <strong><?php esc_html_e( 'Recuerdame', 'woocommerce' ); ?></strong>
     </label>
+    <a class="forgot" href="<?php echo get_home_url() ?>/index.php/olvidaste-contrasena">Olvidaste tu contraseña?</a> 
   </p>
   <div class="action-login text-center">  
     <?php wp_nonce_field( 'woocommerce-login', 'woocommerce-login-nonce' ); ?>
-    <button type="submit" class="btn btn-default action-login-btn buttom-gradient-red" name="login" value="<?php esc_attr_e( 'Log in', 'woocommerce' ); ?>"><?php esc_html_e( 'Iniciar Sesión', 'woocommerce' ); ?></button>
+    <button type="submit" class="btn_custom btn--large btn--filledBlack" name="login" value="<?php esc_attr_e( 'Log in', 'woocommerce' ); ?>"><?php esc_html_e( 'Iniciar Sesión', 'woocommerce' ); ?></button>
   </div>
 
   <?php do_action( 'woocommerce_login_form_end' ); ?>

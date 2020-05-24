@@ -272,10 +272,26 @@
 	}
 
 
+	.form-row-sesion{
+		display: flex !important;
+		justify-content: space-between !important;
+		padding: 0 0.5rem;
+	}
 
-
-
-
+	.sign-up-footer{
+		background-color: transparent !important;
+	}
+	.form-row-sesion .forgot{
+		font-family: Muli !important;
+		font-size: 15px !important;
+		font-weight: normal;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.71;
+		letter-spacing: normal;
+		text-align: right;
+		color: #f75b75 !important;
+	}
 
 
 
