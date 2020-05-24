@@ -1,3 +1,5 @@
+<?php  get_header(); ?>
+<?php get_template_part('partials/header-general'); ?>
 <?php
 /**
  * Lost password form
@@ -19,7 +21,7 @@ defined( 'ABSPATH' ) || exit;
 
 do_action( 'woocommerce_before_lost_password_form' );
 ?>
-<?php  get_header(); ?>
+
 
 <section id="olvidaste-contrasena" class="margin-top-page">
     <div class="container">

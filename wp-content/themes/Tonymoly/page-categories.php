@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-
+<?php get_template_part('partials/header-general'); ?>
 <section class="main-categories">
   <div class="">
     <div class="main-title__between container">
