@@ -78,10 +78,11 @@ do_action( 'woocommerce_before_customer_login_form' ); ?>
 
   <?php do_action( 'woocommerce_login_form_start' ); ?>
   <div class="form-group">
-    <label for="username" class="sr-only">Nombre de usuario</label>
+    <label for="username" class="">Nombre de usuario:*</label>
     <input type="text"  name="username" id="username" autocomplete="username" placeholder="" value="<?php echo ( ! empty( $_POST['username'] ) ) ? esc_attr( wp_unslash( $_POST['username'] ) ) : ''; ?>" /><?php // @codingStandardsIgnoreLine ?>     
   </div>       
   <div class="form-group">  
+    <label for="username" class="">Contraseña:*</label>
     <input type="password" placeholder="" name="password" id="password" autocomplete="current-password" />
     
   </div> 
