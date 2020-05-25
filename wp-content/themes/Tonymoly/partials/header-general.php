@@ -44,6 +44,15 @@
           <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>'>Home</a>
           <i class="fa fa-plus" aria-hidden="true"></i>
         </li>
+        
+        <li class='nav-item'>
+          <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>/conviertete-en-distribuidor'>Quiero ser distribuidor</a>
+          <i class="fa fa-plus" aria-hidden="true"></i>
+        </li>
+        <li class='nav-item'>
+          <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>/refiere-y-gana'>Refiere y gana dinero</a>
+          <i class="fa fa-plus" aria-hidden="true"></i>
+        </li>
         <li class='nav-item'>
           <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>/cart'>Cart</a>
           <i class="fa fa-plus" aria-hidden="true"></i>
