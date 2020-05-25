@@ -1306,4 +1306,76 @@
     text-align: center;
     color: #1c1c1c;
   }
+
+
+  /* MODAL LOGOUT*/
+  #Modallogout .modal-header{
+    padding: 0px;
+  }
+  .main-modallogout__icon{
+    width: 51px;
+    height: 51px;
+    border-radius: 15px;
+    border: solid 1px rgba(0, 0, 0, 0);
+    background-color: #f75b75;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+  }
+  .main-modallogout__text p{
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0) !important;
+    font-size: 18px !important;
+    line-height: 1.5 !important;
+    letter-spacing: normal !important;
+    text-align: center !important;
+    color: #1f314a !important;
+    font-weight: 500 !important;
+  }
+  .main-modallogout__text{
+    padding-bottom: 2rem;
+    width: 80%;
+  }
+  /* .main-modallogout__content{
+    padding: 1rem;
+  } */
+  .main-modallogout__item:nth-child(1){
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #ffffff, rgba(7, 8, 8, 0.19) 166%);
+    border-radius: 12px 12px 0 0;
+  }
+  .main-modallogout__item:nth-child(2){
+    padding: 2rem 3rem;
+  }
+  .main-modallogout__btns{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+  
+  }
+  a.cancel{
+    font-family: Muli;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.83;
+    letter-spacing: -0.24px;
+    text-align: center;
+    color: #1f314a;
+  }
+  a.accept{
+    font-family: Muli;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.83;
+    letter-spacing: -0.24px;
+    text-align: center;
+    color: #030303;
+  }
 }

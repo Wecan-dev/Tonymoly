@@ -57,6 +57,10 @@
           <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>/my-account'>My Account</a>
           <i class="fa fa-plus" aria-hidden="true"></i>
         </li>
+        <li class='nav-item'>
+          <a href="" class="btn_custom btn--medium btn--filled" data-toggle="modal" data-target="#Modallogout">Cerrar</a>
+        </li>
+       
 
       </ul>
 

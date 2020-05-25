@@ -166,6 +166,33 @@
 		<p>© 2020 Todos los derechos reservados <a href="">TONYMOLY COLOMBIA</a></p>
 	</div>
 </footer>
+<!-- Modal -->
+<div class="modal fade" id="Modallogout" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="main-modallogout__content">
+			<div class="main-modallogout__item">
+				<div class="main-modallogout__icon">
+					<a href="">
+						<img src="<?php echo get_template_directory_uri();?>/assets/img/off.svg" alt="">
+					</a>
+				</div>
+				<div class="main-modallogout__text">
+					<p class="font-general"> Estas seguro de que quieres cerrar sesión?</p>
+				</div>
+			</div>
+			<div class="main-modallogout__item">
+				<div class="main-modallogout__btns">
+					<a class="cancel" href="">Cancelar</a>
+					<a class="accept" href="">Aceptar</a>
+				</div>
+			</div>
+		</div>
+      </div>     
+    </div>
+  </div>
+</div>
 <script src='<?php echo get_template_directory_uri();?>/assets/js/jquery.min.js'></script>
 <script src='<?php echo get_template_directory_uri();?>/assets/js/bootstrap.min.js'></script>
 <script src='https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js'></script>
