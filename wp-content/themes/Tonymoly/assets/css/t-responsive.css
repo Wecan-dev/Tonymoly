@@ -742,7 +742,21 @@
 		font-size: 20px;
 	}
 	.woocommerce-MyAccount-content{
-		display: none;
+		padding: 1rem;
+	}
+	.btn-width{
+		width: 100% !important;
+	}
+	legend{
+		font-family: Muli;
+		font-size: 24px;
+		font-weight: 600;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.33;
+		letter-spacing: normal;
+		text-align: left;
+		color: #1c1c1c;
 	}
 }
 

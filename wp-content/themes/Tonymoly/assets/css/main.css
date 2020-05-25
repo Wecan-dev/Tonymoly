@@ -837,6 +837,7 @@
     border-radius: .25rem;
   height: 45px;
   width: 100%;
+  padding: 0 1rem;
   
   }
 
@@ -848,8 +849,9 @@
     background: transparent;
     border-color: transparent !important;
     outline: 0;
-    border-bottom: 1px solid #ff451d !important;
+    border: 1px solid #ced4da !important;
     box-shadow: 0 0 0 0.2rem transparent !important;
+    padding: 0 1rem;
     
   }
 
