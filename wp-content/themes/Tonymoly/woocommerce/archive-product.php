@@ -33,7 +33,10 @@ get_header( 'shop' );
 								<img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
 							</div>
 							<div class="main-product__bag">
-								<img src="<?php echo get_template_directory_uri();?>/assets/img/bag-black.svg" alt="">
+								<a href="<?php bloginfo('url'); ?>/?add-to-cart=<?php the_id(); ?>">
+
+									<img src="<?php echo get_template_directory_uri();?>/assets/img/bag-black.svg" alt="">
+								</a>
 
 							</div>
 							<div class="main-product__like">
