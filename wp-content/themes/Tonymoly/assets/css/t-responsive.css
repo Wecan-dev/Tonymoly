@@ -261,8 +261,56 @@
 		font-weight: normal;
 		color: rgba(70, 54, 43, 0.5);
 	}
+	.ur-frontend-form .ur-form-row .ur-form-grid .ur-field-item.field-checkbox ul, .ur-frontend-form .ur-form-row .ur-form-grid .ur-field-item.field-radio ul {
+		margin: 0;
+		list-style: none;
+		display: flex !important;
+		justify-content: space-around !important;
+		align-items: center !important;
+	}
+	.ur-frontend-form .ur-form-row .ur-form-grid .ur-field-item.field-checkbox ul li, .ur-frontend-form .ur-form-row .ur-form-grid .ur-field-item.field-radio ul li {
 	
-	
+		margin-bottom: 0px !important;
+	}
+	#radio_1590373895_field ul{
+		padding-left: 0 !important;
+	}
+	#radio_1590373895_field ul li:nth-child(1){
+		margin-right: 5px;
+	}
+
+	.ur-frontend-form .ur-button-container .ur-submit-button{
+		margin-left: 0;
+		margin-right: 0;
+		color: #fff;
+		background-color: #000;
+		border: 1px solid #000;
+		transition: 0.3s ease-in-out;
+		text-decoration: none;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		min-width: 105px;
+		font-size: 14px;
+		display: inline-block;
+		font-size: 14px;
+		letter-spacing: 0;
+		font-weight: 600;
+		outline: 0;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		border-radius: 5px;
+		-webkit-transition: color .2s ease-in-out, background-color .2s ease-in-out, border-color .2s ease-in-out;
+		-o-transition: color .2s ease-in-out, background-color .2s ease-in-out, border-color .2s ease-in-out;
+		transition: color .2s ease-in-out, background-color .2s ease-in-out, border-color .2s ease-in-out;
+		padding: 13px 50px;
+		cursor: pointer;
+		text-transform: uppercase;
+		font-family: Muli;
+	}
+	.ur-frontend-form .ur-button-container{
+		padding: 5px !important;
+	}
 	.tabs.wc-tabs{
 		padding-left: 0 !important;
 		list-style: none !important;
@@ -515,8 +563,26 @@
 	.password-input-group{
 		width: 100% !important;
 	}
+	.ur-frontend-form .ur-form-row .ur-form-grid input[readonly], .ur-frontend-form .ur-form-row .ur-form-grid select[readonly], .ur-frontend-form .ur-form-row .ur-form-grid textarea[readonly] {
+		cursor: auto;
+		border-radius: 0.25em !important;
+	}
+	
 	.ur-frontend-form .ur-form-row .ur-form-grid input[type=date], .ur-frontend-form .ur-form-row .ur-form-grid input[type=email], .ur-frontend-form .ur-form-row .ur-form-grid input[type=number], .ur-frontend-form .ur-form-row .ur-form-grid input[type=password], .ur-frontend-form .ur-form-row .ur-form-grid input[type=phone], .ur-frontend-form .ur-form-row .ur-form-grid input[type=text], .ur-frontend-form .ur-form-row .ur-form-grid input[type=timepicker], .ur-frontend-form .ur-form-row .ur-form-grid input[type=url], .ur-frontend-form .ur-form-row .ur-form-grid select, .ur-frontend-form .ur-form-row .ur-form-grid textarea{
 		min-height: 45px !important;
+		font-family: Muli;
+		font-size: 14px;
+		font-weight: normal;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.29;
+		letter-spacing: normal;
+		text-align: left;
+		border: 1px solid #ced4da;
+		  border-radius: .25rem !important;
+		height: 45px !important;
+		width: 100%;
+		margin-bottom: 0;
 	}
 	label{
 		font-family: Muli;
