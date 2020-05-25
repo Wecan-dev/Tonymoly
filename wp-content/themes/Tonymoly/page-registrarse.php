@@ -21,7 +21,7 @@
 
 <section id="iniciar-sesion" class="margin-top-page">
   <div class="container">
-  <div class="title-page text-center">
+    <div class="title-page text-center">
       <h2><strong>Registro</strong></h2>
       <p class="">Crea tu cuenta rapido usando</p>
 
@@ -50,15 +50,15 @@
 
     <div class="main-sesion__politicas">
       <p class="font-general">Al clickear en ‘Registrarte’ aceptas nuestros 
-      <a href="">términos y condiciones</a>, <a href="">políticas de privacidad</a> y 
-      <a href="">tratamiento de datos</a>.
+        <a href="">términos y condiciones</a>, <a href="">políticas de privacidad</a> y 
+        <a href="">tratamiento de datos</a>.
       </p>
     </div>
     <div class="main-sesion__question">
       <p class="font-general">No estas Registrado?</p>
       <div class="main-goup__btn">
 
-        <a  class="btn_custom btn--medium btn--filledTransparentB" href="<?php echo get_home_url() ?>/index.php/iniciar-sesion">Iniciar Sesión</a>
+        <a  class="btn_custom btn--medium btn--filledTransparentB" href="<?php echo bloginfo('url'); ?>/iniciar-sesion">Iniciar Sesión</a>
       </div>
     </div>
 
