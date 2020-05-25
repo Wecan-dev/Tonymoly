@@ -53,7 +53,7 @@ do_action( 'woocommerce_before_lost_password_form' );
             </div>
 
             <footer class="sign-up-footer">
-                <p>Volver a <a href="<?php echo get_home_url() ?>/index.php/iniciar-sesion">Iniciar Sesión</a></p>
+                <p>Volver a <a href="<?php echo bloginfo('url'); ?>/iniciar-sesion">Iniciar Sesión</a></p>
             </footer>
         </div>
 

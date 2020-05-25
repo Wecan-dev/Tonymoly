@@ -2,7 +2,7 @@
 
 if(is_user_logged_in() != NULL)
 {
-  header('Location: http://localhost/Tonymoly/');
+  header('Location: http://159.89.229.55/Tonymoly/');
 } 
 
 ?>
@@ -117,8 +117,8 @@ do_action( 'woocommerce_before_customer_login_form' ); ?>
 
 <div class="main-sesion__politicas">
   <p class="font-general">Al clickear en ‘Registrarte’ aceptas nuestros 
-  <a href="">términos y condiciones</a>, <a href="">políticas de privacidad</a> y 
-  <a href="">tratamiento de datos</a>.
+    <a href="">términos y condiciones</a>, <a href="">políticas de privacidad</a> y 
+    <a href="">tratamiento de datos</a>.
   </p>
 </div>
 <div class="main-sesion__question">
