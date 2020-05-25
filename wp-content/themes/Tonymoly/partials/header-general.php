@@ -9,8 +9,8 @@
     <a class="navbar-brand" href="<?php echo bloginfo('url'); ?>">Tonymoly</a>
     <div class="main-navbar__icons">
       <div class="search-container">
-        <form action="/search" method="get">
-          <input class="search expandright" id="searchright" type="search" name="q" placeholder="Search">
+        <form action="<?php bloginfo('url'); ?>" method="get">
+          <input class="search expandright" id="searchright" type="search" name="s" placeholder="Search">
           <label class="button searchbutton" for="searchright"><span class="mglass">&#9906;</span></label>
         </form>
       </div>
@@ -33,10 +33,10 @@
       </div>
       <ul class="navbar-nav mr-auto">
         <li class='nav-item'>
-          <a class="btn_custom btn--medium btn--filledGray" href="#">
+          <a class="btn_custom btn--medium btn--filledGray" href="<?php echo bloginfo('url'); ?>/iniciar-sesion">
             Iniciar Sesión    
           </a>
-          <a class="btn_custom btn--medium btn--filledGray" href="#">
+          <a class="btn_custom btn--medium btn--filledGray" href="<?php echo bloginfo('url'); ?>/registrarse">
             Registrarme   
           </a>
         </li>
