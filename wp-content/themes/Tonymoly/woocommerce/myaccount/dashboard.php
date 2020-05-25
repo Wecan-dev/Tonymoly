@@ -22,6 +22,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 ?>
 
+
+
 <p>
 	<?php
 	printf(
@@ -43,6 +45,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	);
 	?>
 </p>
+
 
 <?php
 	/**

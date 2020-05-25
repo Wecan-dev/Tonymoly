@@ -45,7 +45,7 @@ if ( post_password_required() ) {
 	<div style="background: #fff;">
 		<div class="main-share__products">
 			<div class="main-share__product">
-				<p class="font-general">Refiere y gana dinero!</p>
+				<p class="font-general" data-toggle="modal" data-target="#exampleModalCenter">Refiere y gana dinero!</p>
 				<span class="font-general">Haz click aqui y adquiere tu código</span>
 			</div>
 			<div class="main-share__product">
@@ -145,13 +145,11 @@ if ( post_password_required() ) {
 </div>
 
 <?php do_action( 'woocommerce_after_single_product' ); ?>
-
-
 <section class="main-product">
   <div class="container">
     <div class="">
       <div class="main-title__general">
-        <p>PRODUCTOS SIMILARES</p>
+        <p>USALO CON</p>
       </div>
       
     </div>
@@ -168,7 +166,7 @@ if ( post_password_required() ) {
               <div class="main-product__bag">
                 <a href="<?php bloginfo('url'); ?>/?add-to-cart=<?php the_id(); ?>">
 
-                  <img src="<?php echo get_template_directory_uri();?>/assets/img/bag-black.svg" alt="">
+                  <img src="<?php echo get_template_directory_uri();?>/assets/img/buy.svg" alt="">
                 </a>
 
               </div>
@@ -195,3 +193,90 @@ if ( post_password_required() ) {
     </div>
   </div>
 </section>
+
+
+<section class="main-product pb-4">
+  <div class="container">
+    <div class="">
+      <div class="main-title__general">
+        <p>PRODUCTOS SIMILARES</p>
+      </div>
+      
+    </div>
+    <div class="main-product__content">
+      <?php $args = array( 'post_type' => 'product');?>   
+      <?php $loop = new WP_Query( $args ); ?>
+      <?php while ($loop->have_posts()) : $loop->the_post();  global $product; ?>
+        <div class="main-product__item">
+          <a href="<?php the_permalink(); ?>">
+            <div class="main-product__card">
+              <div class="main-product__img">
+                <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
+              </div>
+              <div class="main-product__bag">
+                <a href="<?php bloginfo('url'); ?>/?add-to-cart=<?php the_id(); ?>">
+
+					<img src="<?php echo get_template_directory_uri();?>/assets/img/buy.svg" alt="">
+                </a>
+
+              </div>
+              <div class="main-product__like">
+                <i class="fa fa-heart-o" aria-hidden="true"></i>
+              </div>
+              <div class="main-product__box">
+                <div class="main-title__categories title-black">
+                  <p><?php the_title(); ?></p>
+                </div>
+                <div class="main-product__description">
+                  <p><?php the_content() ?>   </p>
+                </div>
+                <div class="main-title__categories">
+                  <p><?php echo $product->get_price_html(); ?></p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      <?php endwhile; ?>
+
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <p class="font-general">
+			Animo Mercedes! 
+			<br>
+			<span>vamos a lograr unas ventas!</span>
+		</p>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+		<p class="font-general text_sharemodal">Compartir en</p>
+	  <div class="main-share__producticons">
+		<a class="main-footer__redescircle" href="">
+			<i class="fa fa-facebook" aria-hidden="true"></i>
+		</a>
+		<a class="main-footer__redescircle" href="">
+			<i class="fa fa-twitter" aria-hidden="true"></i>
+		</a>
+		<a class="main-footer__redescircle" href="">
+			<i class="fa fa-pinterest-p" aria-hidden="true"></i>
+		</a>
+		<a class="main-footer__redescircle" href="">
+			<i class="fa fa-whatsapp" aria-hidden="true"></i>
+		</a>
+	</div>
+      </div>
+     
+    </div>
+  </div>
+</div>
