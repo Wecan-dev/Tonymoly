@@ -34,3 +34,5 @@ echo apply_filters(
 	$product,
 	$args
 );
+?>
+<span>Hello</span>

@@ -38,6 +38,8 @@ get_header( 'shop' ); ?>
 
 		<?php endwhile; // end of the loop. ?>
 
+		
+		
 		<?php
 		/**
 		 * woocommerce_after_main_content hook.
@@ -46,7 +48,6 @@ get_header( 'shop' ); ?>
 		 */
 		do_action( 'woocommerce_after_main_content' );
 		?>
-
 		<?php
 		/**
 		 * woocommerce_sidebar hook.
@@ -55,8 +56,11 @@ get_header( 'shop' ); ?>
 		 */
 		do_action( 'woocommerce_sidebar' );
 		?>
+	
 
 		<?php
 		get_footer( 'shop' );
 
 		/* Omit closing PHP tag at the end of PHP files to avoid "headers already sent" issues. */
+?>
+

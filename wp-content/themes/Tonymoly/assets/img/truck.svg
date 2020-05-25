@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24.287" height="16.559" viewBox="0 0 24.287 16.559">
+    <defs>
+        <style>
+            .prefix__cls-1{fill:#4b4b4b}
+        </style>
+    </defs>
+    <g id="prefix__truck" transform="translate(0 -78.521)">
+        <g id="prefix__Grupo_11074" data-name="Grupo 11074" transform="translate(14.898 88.697)">
+            <g id="prefix__Grupo_11073" data-name="Grupo 11073">
+                <path id="prefix__Trazado_43703" d="M325.343 304.4a3.192 3.192 0 1 0 3.192 3.192 3.2 3.2 0 0 0-3.192-3.192zm0 4.788a1.6 1.6 0 1 1 1.6-1.6 1.6 1.6 0 0 1-1.6 1.603z" class="prefix__cls-1" data-name="Trazado 43703" transform="translate(-322.151 -304.403)"/>
+            </g>
+        </g>
+        <g id="prefix__Grupo_11076" data-name="Grupo 11076" transform="translate(4.752 88.697)">
+            <g id="prefix__Grupo_11075" data-name="Grupo 11075">
+                <path id="prefix__Trazado_43704" d="M104.839 304.4a3.192 3.192 0 1 0 3.192 3.192 3.2 3.2 0 0 0-3.192-3.192zm0 4.788a1.6 1.6 0 1 1 1.6-1.6 1.6 1.6 0 0 1-1.6 1.603z" class="prefix__cls-1" data-name="Trazado 43704" transform="translate(-101.647 -304.403)"/>
+            </g>
+        </g>
+        <g id="prefix__Grupo_11078" data-name="Grupo 11078" transform="translate(15.323 80.117)">
+            <g id="prefix__Grupo_11077" data-name="Grupo 11077">
+                <path id="prefix__Trazado_43705" d="M335.671 111.229a.8.8 0 0 0-.713-.439h-4.2v1.6h3.71l2.173 4.321 1.426-.717z" class="prefix__cls-1" data-name="Trazado 43705" transform="translate(-330.756 -110.79)"/>
+            </g>
+        </g>
+        <g id="prefix__Grupo_11080" data-name="Grupo 11080" transform="translate(10.119 91.117)">
+            <g id="prefix__Grupo_11079" data-name="Grupo 11079">
+                <path id="prefix__Rectángulo_4604" d="M0 0H6.038V1.596H0z" class="prefix__cls-1" data-name="Rectángulo 4604"/>
+            </g>
+        </g>
+        <g id="prefix__Grupo_11082" data-name="Grupo 11082" transform="translate(2.261 91.117)">
+            <g id="prefix__Grupo_11081" data-name="Grupo 11081">
+                <path id="prefix__Trazado_43706" d="M49.279 353.345h-2.766a.8.8 0 1 0 0 1.6h2.766a.8.8 0 1 0 0-1.6z" class="prefix__cls-1" data-name="Trazado 43706" transform="translate(-45.715 -353.345)"/>
+            </g>
+        </g>
+        <g id="prefix__Grupo_11084" data-name="Grupo 11084" transform="translate(2.261 78.521)">
+            <g id="prefix__Grupo_11083" data-name="Grupo 11083">
+                <path id="prefix__Trazado_43707" d="M67.581 86.663l-1.5-1.889a.767.767 0 0 0-.6-.288h-5.539v-5.219a.754.754 0 0 0-.762-.746h-12.7a.746.746 0 1 0 0 1.491h11.94v5.219a.754.754 0 0 0 .762.746h5.927l1.11 1.4v3.846h-2.111a.746.746 0 1 0 0 1.491h2.871a.754.754 0 0 0 .762-.746v-4.847a.736.736 0 0 0-.16-.458z" class="prefix__cls-1" data-name="Trazado 43707" transform="translate(-45.715 -78.521)"/>
+            </g>
+        </g>
+        <g id="prefix__Grupo_11086" data-name="Grupo 11086" transform="translate(1.303 87.474)">
+            <g id="prefix__Grupo_11085" data-name="Grupo 11085">
+                <path id="prefix__Trazado_43708" d="M30.821 271.6h-3.67a.8.8 0 0 0 0 1.6h3.67a.8.8 0 0 0 0-1.6z" class="prefix__cls-1" data-name="Trazado 43708" transform="translate(-26.353 -271.597)"/>
+            </g>
+        </g>
+        <g id="prefix__Grupo_11088" data-name="Grupo 11088" transform="translate(0 84.531)">
+            <g id="prefix__Grupo_11087" data-name="Grupo 11087">
+                <path id="prefix__Trazado_43709" d="M7.607 208.134H.8a.8.8 0 0 0 0 1.6h6.807a.8.8 0 0 0 0-1.6z" class="prefix__cls-1" data-name="Trazado 43709" transform="translate(0 -208.134)"/>
+            </g>
+        </g>
+        <g id="prefix__Grupo_11090" data-name="Grupo 11090" transform="translate(1.303 81.588)">
+            <g id="prefix__Grupo_11089" data-name="Grupo 11089">
+                <path id="prefix__Trazado_43710" d="M33.96 144.672h-6.809a.8.8 0 0 0 0 1.6h6.809a.8.8 0 0 0 0-1.6z" class="prefix__cls-1" data-name="Trazado 43710" transform="translate(-26.353 -144.672)"/>
+            </g>
+        </g>
+    </g>
+</svg>

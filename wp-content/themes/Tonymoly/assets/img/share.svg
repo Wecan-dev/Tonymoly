@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32.148" height="33.4" viewBox="0 0 32.148 33.4">
+    <defs>
+        <filter id="prefix__Trazado_43801" width="23.086" height="23.088" x="9.063" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur result="blur" stdDeviation="3"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="prefix__Trazado_43802" width="23.086" height="23.088" x="9.063" y="10.313" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur result="blur-2" stdDeviation="3"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur-2" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="prefix__Trazado_43803" width="23.086" height="23.088" x="0" y="5.156" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur result="blur-3" stdDeviation="3"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur-3" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="prefix__Trazado_43804" width="25.139" height="22.646" x="3.504" y="2.798" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur result="blur-4" stdDeviation="3"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur-4" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="prefix__Trazado_43805" width="25.201" height="22.646" x="3.475" y="7.954" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur result="blur-5" stdDeviation="3"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur-5" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <style>
+            .prefix__cls-1{fill:#46362b;stroke:#46362b;stroke-width:.4px}
+        </style>
+    </defs>
+    <g id="prefix__share">
+        <g transform="translate(9.199 6.2) translate(-9.2 -6.2)">
+            <path id="prefix__Trazado_43801-2" d="M311.676 4.688a2.344 2.344 0 1 1 2.344-2.344 2.347 2.347 0 0 1-2.344 2.344zm0-3.75a1.406 1.406 0 1 0 1.406 1.406 1.408 1.408 0 0 0-1.406-1.406zm0 0" class="prefix__cls-1" data-name="Trazado 43801" transform="translate(-291.07 6.2)"/>
+        </g>
+        <g transform="translate(9.199 6.2) translate(-9.2 -6.2)">
+            <path id="prefix__Trazado_43802-2" d="M311.676 356.688a2.344 2.344 0 1 1 2.344-2.344 2.347 2.347 0 0 1-2.344 2.344zm0-3.75a1.406 1.406 0 1 0 1.406 1.406 1.408 1.408 0 0 0-1.406-1.406zm0 0" class="prefix__cls-1" data-name="Trazado 43802" transform="translate(-291.07 -335.49)"/>
+        </g>
+        <g transform="translate(9.199 6.2) translate(-9.2 -6.2)">
+            <path id="prefix__Trazado_43803-2" d="M2.344 180.688a2.344 2.344 0 1 1 2.344-2.344 2.347 2.347 0 0 1-2.344 2.344zm0-3.75a1.406 1.406 0 1 0 1.406 1.406 1.408 1.408 0 0 0-1.406-1.406zm0 0" class="prefix__cls-1" data-name="Trazado 43803" transform="translate(9.2 -164.64)"/>
+        </g>
+        <g transform="translate(9.199 6.2) translate(-9.2 -6.2)">
+            <path id="prefix__Trazado_43804-2" d="M120.158 99.8a.469.469 0 0 1-.233-.876l5.8-3.306a.469.469 0 0 1 .464.814l-5.8 3.306a.47.47 0 0 1-.231.062zm0 0" class="prefix__cls-1" data-name="Trazado 43804" transform="translate(-106.98 -86.56)"/>
+        </g>
+        <g transform="translate(9.199 6.2) translate(-9.2 -6.2)">
+            <path id="prefix__Trazado_43805-2" d="M125.978 275.792a.464.464 0 0 1-.231-.062l-5.8-3.306a.469.469 0 0 1 .464-.814l5.8 3.306a.469.469 0 0 1-.232.876zm0 0" class="prefix__cls-1" data-name="Trazado 43805" transform="translate(-107 -257.39)"/>
+        </g>
+    </g>
+</svg>

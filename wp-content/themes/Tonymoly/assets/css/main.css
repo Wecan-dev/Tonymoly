@@ -138,7 +138,7 @@
   }
   .btn--filledTransparentB {
     color: #000;
-    border: 1px solid #000;
+    border: 1.5px solid #000;
     background-color: transparent;
     transition: 0.3s ease-in-out;
     text-decoration: none;
@@ -148,7 +148,7 @@
   .btn--filledTransparentB:hover {
     text-decoration: none;
     background-color: #f75b75;
-    border: 1px solid #f75b75;
+    border: 1.5px solid #f75b75;
     color: #fff;
     -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
     -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
@@ -920,7 +920,10 @@
     background-color: #1da1f2;
   }
   .main-footer__redescircle:nth-child(3) {
-    background-color: #c8232c
+    background-color: #c8232c;
+  }
+  .main-footer__redescircle:nth-child(4) {
+    background-color: #25d366;
   }
   .main-footer__subtitlecite{
     font-family: Montserrat;
