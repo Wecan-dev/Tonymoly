@@ -21,8 +21,24 @@
 
 <section id="iniciar-sesion" class="margin-top-page">
   <div class="container">
-    <div class="title-page text-center">
-      <h1>Regístrate!</h1>
+  <div class="title-page text-center">
+      <h2><strong>Registro</strong></h2>
+      <p class="">Crea tu cuenta rapido usando</p>
+
+      <div class="main-share__btns">
+        <div class="btn-share">
+          <i class="fa fa-facebook"></i>
+          <p>Facebook</p>
+        </div>
+        <div class="btn-share">
+          <i class="fa fa-google-plus" aria-hidden="true"></i>
+          <p>Google</p>
+        </div>
+      </div>
+      <div class="main-sesion__text">
+        <hr>
+        <p class="font-general">O usa tu email</p>
+      </div>
     </div>
 
 
@@ -32,9 +48,20 @@
 
     </div>
 
-    <footer class="sign-up-footer">
-      <p>¿Ya estas registrado? <a href="<?php echo get_home_url() ?>/index.php/iniciar-sesion">Iniciar Sesión</a></p>
-    </footer>
+    <div class="main-sesion__politicas">
+      <p class="font-general">Al clickear en ‘Registrarte’ aceptas nuestros 
+      <a href="">términos y condiciones</a>, <a href="">políticas de privacidad</a> y 
+      <a href="">tratamiento de datos</a>.
+      </p>
+    </div>
+    <div class="main-sesion__question">
+      <p class="font-general">No estas Registrado?</p>
+      <div class="main-goup__btn">
+
+        <a  class="btn_custom btn--medium btn--filledTransparentB" href="<?php echo get_home_url() ?>/index.php/iniciar-sesion">Iniciar Sesión</a>
+      </div>
+    </div>
+
   </div>
 
 </div>

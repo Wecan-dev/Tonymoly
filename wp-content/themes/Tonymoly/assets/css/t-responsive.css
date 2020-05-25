@@ -293,8 +293,33 @@
 		color: #f75b75 !important;
 	}
 
-
-
+	.ur-frontend-form{
+		padding: 0 !important;
+		border: 1px solid transparent !important;
+	}
+	input#user_login, input#user_pass,
+	#mc-input, #user_email, #user_login,
+	.ur-frontend-form .ur-form-row .ur-form-grid .hide_show_password input[type=password]{
+		font-family: Muli;
+		font-size: 14px;
+		font-weight: normal;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.29;
+		letter-spacing: normal;
+		text-align: left;
+		border: 1px solid #ced4da;
+		  border-radius: .25rem;
+		height: 45px !important;
+		width: 100%;
+		margin-bottom: 0;
+	}
+	.password-input-group{
+		width: 100% !important;
+	}
+	.ur-frontend-form .ur-form-row .ur-form-grid input[type=date], .ur-frontend-form .ur-form-row .ur-form-grid input[type=email], .ur-frontend-form .ur-form-row .ur-form-grid input[type=number], .ur-frontend-form .ur-form-row .ur-form-grid input[type=password], .ur-frontend-form .ur-form-row .ur-form-grid input[type=phone], .ur-frontend-form .ur-form-row .ur-form-grid input[type=text], .ur-frontend-form .ur-form-row .ur-form-grid input[type=timepicker], .ur-frontend-form .ur-form-row .ur-form-grid input[type=url], .ur-frontend-form .ur-form-row .ur-form-grid select, .ur-frontend-form .ur-form-row .ur-form-grid textarea{
+		min-height: 45px !important;
+	}
 
 
 

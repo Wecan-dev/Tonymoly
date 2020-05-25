@@ -621,7 +621,6 @@
     font-stretch: normal;
     font-style: normal;
     letter-spacing: normal;
-    text-align: left;
   }
   .main-blog__date{
     margin-top: 1rem;
@@ -1218,5 +1217,88 @@
     letter-spacing: normal;
     text-align: left;
     color: #f75b75;
+  }
+
+  .main-share__btns{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  .btn-share {
+    width: 158.3px;
+    height: 50px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+  }
+  .btn-share i{
+    color: #fff;
+    font-size: 22px;
+    position: relative;
+  }
+  .btn-share i:after{
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 3.4rem;
+    background-color: #fff;
+    top: -15px;
+    left: 2rem;
+  }
+  .btn-share p{
+    font-family: CenturyGothic;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin-bottom: 0;
+  }
+  .btn-share:nth-child(1){
+    background-color: #37559e;
+  }
+  .btn-share:nth-child(2){
+    background-color: #dc4e41;
+  }
+  .main-sesion__text{
+    padding: 1rem 0;
+    position: relative;
+  }
+  .main-sesion__text p {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    padding: 0px 10px;
+    font-family: Muli;
+    font-size: 16px;
+    color: #1c1c1c;
+    text-align: center;
+  }
+  .main-sesion__politicas{
+    padding: 1rem 0;
+  }
+  .main-sesion__politicas p, .main-sesion__politicas p a{
+    font-family: Muli;
+    font-size: 14px;
+    line-height: 1.71;
+    text-align: center;
+    color: #1c1c1c;
+  }
+  .main-sesion__politicas p a{
+    text-decoration: underline;
+    color: #1c1c1c;
+    text-align: center;
+  }
+  .main-sesion__question{
+    font-family: Muli;
+    font-size: 20px;
+    line-height: 1.71;
+    text-align: center;
+    color: #1c1c1c;
   }
 }
