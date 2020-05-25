@@ -21,12 +21,29 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 do_action( 'woocommerce_before_account_navigation' );
 ?>
-
+<div class="main-navbar__profile">
+        <div class="main-navbar__img">
+          <img src="<?php echo get_template_directory_uri();?>/assets/img/profile.png" alt="">
+        </div>
+        <div class="main-navbar__info">
+          <div class="main-navbar__name">
+            <p>Hola Camila!</p>
+          </div>
+          <div class="main-navbar__complete">
+            <span>Completa la información de perfil</span>
+          </div>
+        </div>
+      </div>
 <nav class="woocommerce-MyAccount-navigation">
 	<ul>
 		<?php foreach ( wc_get_account_menu_items() as $endpoint => $label ) : ?>
 			<li class="<?php echo wc_get_account_menu_item_classes( $endpoint ); ?>">
-				<a href="<?php echo esc_url( wc_get_account_endpoint_url( $endpoint ) ); ?>"><?php echo esc_html( $label ); ?></a>
+				<div class="main-list_nav">
+					<a href="<?php echo esc_url( wc_get_account_endpoint_url( $endpoint ) ); ?>">
+					<i class="fa fa-user-o" aria-hidden="true"></i>
+					<?php echo esc_html( $label ); ?></a>
+				</div>
+				<i class="fa fa-angle-right" aria-hidden="true"></i>
 			</li>
 		<?php endforeach; ?>
 	</ul>
