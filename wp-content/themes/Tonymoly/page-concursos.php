@@ -24,6 +24,23 @@
   .title-concurso .textPink{
     color: #f75b75;
   }
+  .Dont-compromise-on {
+    width: 289px;
+    height: 17px;
+    font-family: Muli;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #46362b;
+  }
+  .main-blog__title p {
+    padding-top: 20px;
+  }
+
 </style>
 
 <section class="main-blog">
@@ -38,7 +55,7 @@
           <div class="main-blog__card">
             <div >
               <div class="title-concurso""><img style="width: 20px;"src="<?php echo get_template_directory_uri(); ?>/assets/img/gift (1).png"><p > <a href="<?php the_permalink(); ?>">MAQUILLAJE DE NOCHE</a> <br>
-                <span>Inicia el <span class="textPink">27 de junio</span> y finaliza el <span class="textPink">28 de julio</span></span></p>
+                <span class="Dont-compromise-on">Inicia el <span class="textPink">27 de junio</span> y finaliza el <span class="textPink">28 de julio</span></span></p>
 
               </div>
             </div>
