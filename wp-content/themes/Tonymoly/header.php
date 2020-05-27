@@ -48,6 +48,7 @@
 <link href='<?php echo get_template_directory_uri();?>/assets/css/main.css' rel='stylesheet'>
 <link href='<?php echo get_template_directory_uri();?>/assets/css/t-responsive.css' rel='stylesheet'>
 <link href='<?php echo get_template_directory_uri();?>/assets/css/offcanvas.css' rel='stylesheet'>
+<link href='<?php echo get_template_directory_uri();?>/assets/css/accordion.css' rel='stylesheet'>
 <link href="<?php echo get_template_directory_uri();?>/assets/img/favicon-32x32.png"  rel="icon" type="image/png" sizes="32x32">
 <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@800;900&display=swap" rel="stylesheet">
 <?php wp_head(); ?>

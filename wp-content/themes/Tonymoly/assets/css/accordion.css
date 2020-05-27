@@ -1,0 +1,167 @@
+
+/**
+ * Hidden fallback
+ */
+ [hidden] {
+  display: none;
+  visibility: hidden;
+}
+
+/**
+ * Styling navigation
+ */
+
+ul.nav__list{
+  padding-left: 0;
+  list-style: none;
+}
+.nav__list label{
+  font-size: 18px;
+}
+.nav a,
+.nav label {
+  display: block;
+  padding: .85rem;
+  background-color: #151515;
+  box-shadow: inset 0 -1px #1d1d1d;
+  -webkit-transition: all .25s ease-in;
+  transition: all .25s ease-in;
+  border-radius: 6px;
+  box-shadow: 2px 2px 6px 0 rgba(28, 28, 28, 0.12);
+  border: solid 0.2px #95989a;
+  background-color: #f5f5f5;
+  
+}
+
+.nav a,
+.nav label span {
+  font-family: Muli;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1c1c1c;
+}
+.nav a:focus, .nav a:hover,
+.nav label:focus,
+.nav label:hover {
+  font-family: Muli;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1c1c1c;
+  background-color: #fff;
+  border: 1px solid #1c1c1c;
+  font-size: 18px;
+}
+
+.nav label {
+  cursor: pointer;
+}
+
+/**
+ * Styling first level lists items
+ */
+ul.group-list{
+  list-style: none;
+  padding-left: 0;
+}
+.group-list a,
+.group-list label, .sub-group-list a, .sub-group-list label {
+  padding-left: 2rem;
+  background: transparent;
+  box-shadow: 2px 0px 0px 0 rgba(28, 28, 28, 0.12);
+  border: solid 0.2px transparent;
+}
+.group-list a:focus, .group-list a:hover,
+.group-list label:focus,
+.group-list label:hover {
+  background: transparent;
+  border: 1px solid transparent;
+}
+.group-list ul.sub-group-list,.group-list label{
+  padding-left: 8px;
+}
+
+.sub-group-list p{
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: left;
+  color: #4d4d4d;
+}
+
+/**
+ * Styling second level list items
+ */
+.sub-group-list a,
+.sub-group-list label {
+  padding-left: 0rem;
+  background: transparent;
+  box-shadow: 2px 0px 0px 0 rgba(28, 28, 28, 0.12);
+}
+.sub-group-list a:focus, .sub-group-list a:hover,
+.sub-group-list label:focus,
+.sub-group-list label:hover {
+  background: transparent;
+}
+
+/**
+ * Styling third level list items
+ */
+.sub-sub-group-list a,
+.sub-sub-group-list label {
+  padding-left: 6rem;
+  background: #454545;
+  box-shadow: inset 0 -1px #575757;
+}
+.sub-sub-group-list a:focus, .sub-sub-group-list a:hover,
+.sub-sub-group-list label:focus,
+.sub-sub-group-list label:hover {
+  background: #333333;
+}
+
+/**
+ * Hide nested lists
+ */
+.group-list,
+.sub-group-list,
+.sub-sub-group-list {
+  height: 100%;
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: max-height .5s ease-in-out;
+  transition: max-height .5s ease-in-out;
+}
+
+.nav__list input[type=checkbox]:checked + label + ul {
+  /* reset the height when checkbox is checked */
+  max-height: 1000px;
+}
+
+/**
+ * Rotating chevron icon
+ */
+label > span {
+  float: right;
+  -webkit-transition: -webkit-transform .65s ease;
+  transition: -webkit-transform .65s ease;
+  transition: transform .65s ease;
+  transition: transform .65s ease, -webkit-transform .65s ease;
+}
+
+.nav__list input[type=checkbox]:checked + label > span {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+

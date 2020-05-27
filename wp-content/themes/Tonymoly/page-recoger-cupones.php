@@ -19,7 +19,7 @@
               </div>
             </div>
             <div class="main-coupons__btn">
-              <a class="btn_custom btn--large btn--filledDashed" href="#">
+              <a class="btn_custom btn--supersmall btn--filledDashed" href="#">
               WATCHES15
               </a>
             </div>
@@ -46,7 +46,7 @@
               </div>
             </div>
             <div class="main-coupons__btn">
-              <a class="btn_custom btn--large btn--filledDashed" href="#">
+              <a class="btn_custom btn--supersmall btn--filledDashed" href="#">
               WATCHES15
               </a>
             </div>
@@ -73,7 +73,7 @@
               </div>
             </div>
             <div class="main-coupons__btn">
-              <a class="btn_custom btn--large btn--filledDashed" href="#">
+              <a class="btn_custom btn--supersmall btn--filledDashed" href="#">
               WATCHES15
               </a>
             </div>

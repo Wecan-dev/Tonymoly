@@ -35,7 +35,7 @@
             <p class="font-general">Color rosado</p>
           </div>
           <div class="main-wishlist__btn">
-            <a class="btn_custom btn--large btn--filled" href="#">
+            <a class="btn_custom btn--supersmall btn--filled" href="#">
             Mover al Carrito
             </a>
           </div>
@@ -63,7 +63,7 @@
             <p class="font-general">Color rosado</p>
           </div>
           <div class="main-wishlist__btn">
-            <a class="btn_custom btn--large btn--filled" href="#">
+            <a class="btn_custom btn--supersmall btn--filled" href="#">
             Mover al Carrito
             </a>
           </div>
