@@ -50,7 +50,9 @@
 				</li>
 
 				<li>
-					<div class="path"></div>
+					<div class="circle-small twitter">
+						<i class="fa fa-twitter"></i>
+					</div>
 					<a href="">Mercadeo@tonymolycolombia.com</a>
 				</li>
 				<li>
@@ -69,32 +71,32 @@
 					</div>
 					<ul>
 						<li>
-							<a href="">
+							<a href="<?php echo bloginfo('url'); ?>/fqa">
 								Preguntas Frecuentes
 							</a> 
 						</li>
 						<li>
-							<a href="">
+							<a href="<?php echo bloginfo('url'); ?>/cambios-y-devoluciones">
 								Cambios & Devoluciones
 							</a> 
 						</li>
 						<li>
-							<a href="">
+							<a href="<?php echo bloginfo('url'); ?>/metodos-de-pago">
 								Metodos de pago
 							</a> 
 						</li>
 						<li>
-							<a href="">
+							<a href="<?php echo bloginfo('url'); ?>/politicas-de-envios">
 								Politicas de envio
 							</a> 
 						</li>
 						<li>
-							<a href="">
+							<a href="<?php echo bloginfo('url'); ?>/terminos-y-condiciones">
 								Términos y condiciones
 							</a> 
 						</li>
 						<li>
-							<a href="">
+							<a href="<?php echo bloginfo('url'); ?>/politicas-de-privacidad">
 								Politicas de privacidad
 							</a> 
 						</li>
@@ -104,7 +106,7 @@
 							</a> 
 						</li>
 						<li>
-							<a href="">
+							<a href="<?php echo wp_logout_url( home_url() ); ?>">
 								Cerrar sesión
 							</a> 
 						</li>
@@ -122,38 +124,38 @@
 							</a> 
 						</li>
 						<li>
-							<a href="">
+							<a href='<?php echo bloginfo('url'); ?>/conviertete-en-distribuidor'>
 								Distribuir Tonymoly
 							</a> 
 						</li>
 						<li>
-							<a href="">
+							<a href="href='<?php echo bloginfo('url'); ?>/refiere-y-gana'">
 								Refiere y gana!
 							</a> 
 						</li>
 						<li>
-							<a href="">
+							<a href='<?php echo bloginfo('url'); ?>/categories'>
 								Wishlist
 							</a> 
 						</li>
 						<li>
-							<a href="">
+							<a href='<?php echo bloginfo('url'); ?>/categories'>
 								Categorias
 
 							</a> 
 						</li>
 						<li>
-							<a href="">
+							<a href='<?php echo bloginfo('url'); ?>/ofertas'>
 								Ofertas
 							</a> 
 						</li>
 						<li>
-							<a href="">
+							<a href='<?php echo bloginfo('url'); ?>/producto-nuevo'>
 								Nuevo productos
 							</a> 
 						</li>
 						<li>
-							<a href="">
+							<a href='<?php echo bloginfo('url'); ?>/blog'>
 								Blog
 							</a> 
 						</li>
