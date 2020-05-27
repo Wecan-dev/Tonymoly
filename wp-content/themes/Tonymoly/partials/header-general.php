@@ -57,7 +57,7 @@
           <i class="fa fa-plus" aria-hidden="true"></i>
         </li>
         <li class='nav-item'>
-          <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>'>Recoger cupones</a>
+          <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>/recoger-cupones'>Recoger cupones</a>
           <i class="fa fa-plus" aria-hidden="true"></i>
         </li>
         <li class='nav-item'>

@@ -93,7 +93,6 @@
     transition: 0.3s ease-in-out;
     text-decoration: none;
   }
-
   .btn--filled:hover {
     text-decoration: none;
     transition: 0.3s ease-in-out;
@@ -101,6 +100,26 @@
     border: 1px solid #fff;
     background-color: transparent;
   }
+
+
+ 
+  .btn--filledDashed {
+    color: #fff;
+    border: dashed 1px rgba(55, 200, 152, 0.5);
+    background-color: rgba(55, 200, 152, 0.05);
+    color: #0d9da2;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+  }
+
+  .btn--filledDashed:hover {
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+    color: #fff;
+    border: 1px solid #0d9da2;
+    background-color: #0d9da2;
+  }
+
 
   .btn--filledBlack {
     color: #fff;
@@ -1610,5 +1629,31 @@
       left: 0;
       opacity: 0;
       cursor: pointer;
+  }
+
+
+  /* COUPONS*/
+  .main-coupons__item{
+    display: grid;
+    grid-template-columns: 10% 90%;
+    margin-bottom: 1.5rem;
+  }
+  .main-coupons__img img{
+    width: 100%;
+  }
+
+  .main-coupons__boxtext{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .main-coupons__title p{
+    margin-bottom: 0;
+  }
+  .main-coupons__description p{
+    font-size: 12px;
+  }
+  .main-coupons__description p span{
+    color: #f75b75;
   }
 }
