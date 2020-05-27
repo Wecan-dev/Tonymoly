@@ -35,7 +35,7 @@ get_header( 'shop' );
 							<div class="main-product__bag">
 								<a href="<?php bloginfo('url'); ?>/?add-to-cart=<?php the_id(); ?>">
 
-									<img src="<?php echo get_template_directory_uri();?>/assets/img/bag-black.svg" alt="">
+									<img src="<?php echo get_template_directory_uri();?>/assets/img/buy.svg" alt="">
 								</a>
 
 							</div>

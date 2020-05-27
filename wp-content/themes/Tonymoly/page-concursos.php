@@ -26,9 +26,9 @@
   }
 </style>
 
-<section class="main-blog">
+<section class="main-blog section-pb">
   <div class="container">
-    <div class="main-blog__content">
+    <div class="main-blog__content ">
 
       <?php $args = array( 'post_type' => 'concursos');?>   
       <?php $loop = new WP_Query( $args ); ?>
@@ -37,7 +37,7 @@
         <div class="main-blog__item">
           <div class="main-blog__card">
             <div >
-              <div class="title-concurso""><img style="width: 20px;"src="<?php echo get_template_directory_uri(); ?>/assets/img/gift (1).png"><p > <a href="<?php the_permalink(); ?>">MAQUILLAJE DE NOCHE</a> <br>
+              <div class="title-concurso"><img style="width: 20px;"src="<?php echo get_template_directory_uri(); ?>/assets/img/gift (1).png"><p > <a href="<?php the_permalink(); ?>">MAQUILLAJE DE NOCHE</a> <br>
                 <span>Inicia el <span class="textPink">27 de junio</span> y finaliza el <span class="textPink">28 de julio</span></span></p>
 
               </div>
@@ -56,8 +56,8 @@
             <div class="font-general main-blog__description">
               <p><?php the_content(); ?></p>
             </div>
-            <div>
-              <a href="<?php the_permalink(); ?>" class="btn_custom btn--large btn--filled">PARTICIPAR</a>
+            <div class="main-sharetony__btn">
+              <a href="<?php the_permalink(); ?>" class="btn_custom btn--medium btn--filled">PARTICIPAR</a>
             </div>
           </div>
         </div>

@@ -522,9 +522,18 @@
 	.main_content-categories-w{
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
-		grid-gap: 15px;
+		grid-gap: 25px;
+		padding: 0 15px;
 	}
-
+	.main_content-categories-w .main-categories__box{
+		margin-top: 0;
+	}
+	.main_content-categories-w .main-categories__card {
+		height: 180px;
+	}
+	.main_content-categories-w .main-title__categories p{
+		font-size: 14px;
+	}
 
 	.form-row-sesion{
 		display: flex !important;
@@ -605,6 +614,9 @@
 		text-align: left;
 		color: #1c1c1c;
 	}
+	.main-sharetony__content label{
+		color: #838383 !important;
+	  }
 
 
 

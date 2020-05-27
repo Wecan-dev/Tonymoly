@@ -41,10 +41,9 @@
           </a>
         </li>
         <li class='nav-item'>
-          <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>'>Home</a>
+          <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>/my-account'>My Account</a>
           <i class="fa fa-plus" aria-hidden="true"></i>
         </li>
-
         <li class='nav-item'>
           <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>/conviertete-en-distribuidor'>Quiero ser distribuidor</a>
           <i class="fa fa-plus" aria-hidden="true"></i>
@@ -54,7 +53,15 @@
           <i class="fa fa-plus" aria-hidden="true"></i>
         </li>
         <li class='nav-item'>
-          <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>/concursos'>Concursos</a>
+          <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>/wishlist'>Wishlist</a>
+          <i class="fa fa-plus" aria-hidden="true"></i>
+        </li>
+        <li class='nav-item'>
+          <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>'>Recoger cupones</a>
+          <i class="fa fa-plus" aria-hidden="true"></i>
+        </li>
+        <li class='nav-item'>
+          <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>/categories'>Categoria</a>
           <i class="fa fa-plus" aria-hidden="true"></i>
         </li>
         <li class='nav-item'>
@@ -62,13 +69,36 @@
           <i class="fa fa-plus" aria-hidden="true"></i>
         </li>
         <li class='nav-item'>
+          <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>/compartir-tonytv'>Compartir en TONY.tv</a>
+          <i class="fa fa-plus" aria-hidden="true"></i>
+        </li>
+        <li class='nav-item'>
+          <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>/concursos'>Concursos</a>
+          <i class="fa fa-plus" aria-hidden="true"></i>
+        </li>
+        <li class='nav-item'>
+          <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>/ofertas'>Ofertas y Promociones</a>
+          <i class="fa fa-plus" aria-hidden="true"></i>
+        </li>
+        <li class='nav-item'>
           <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>/blog'>Blog</a>
           <i class="fa fa-plus" aria-hidden="true"></i>
         </li>
         <li class='nav-item'>
-          <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>/categories'>Categoria</a>
+          <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>/producto-nuevo'>Nuevos Productos</a>
           <i class="fa fa-plus" aria-hidden="true"></i>
         </li>
+        <li class='nav-item'>
+          <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>'>Productos mas vendido</a>
+          <i class="fa fa-plus" aria-hidden="true"></i>
+        </li>
+
+
+        <li class='nav-item'>
+          <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>'>Home</a>
+          <i class="fa fa-plus" aria-hidden="true"></i>
+        </li>
+        
         <li class='nav-item'>
           <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>/cart'>Cart</a>
           <i class="fa fa-plus" aria-hidden="true"></i>
@@ -78,12 +108,12 @@
           <i class="fa fa-plus" aria-hidden="true"></i>
         </li>
 
+        
         <li class='nav-item'>
-          <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>/my-account'>My Account</a>
-          <i class="fa fa-plus" aria-hidden="true"></i>
+          <a href="" class="btn_custom btn--large btn--filled" data-toggle="modal" data-target="#Modallogout">Cerrar</a>
         </li>
         <li class='nav-item'>
-          <a href="" class="btn_custom btn--medium btn--filled" data-toggle="modal" data-target="#Modallogout">Cerrar</a>
+          <a href="" class="btn_custom btn--large btn--filled" data-toggle="modal" data-target="#ModalThanks">Gracias</a>
         </li>
        
 

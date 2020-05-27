@@ -193,6 +193,34 @@
     </div>
   </div>
 </div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="ModalThanks" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog__Thanks modal-dialog-centered" role="document">
+    <div class="modal-content modal-contentThanks">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <i class="fa fa-times-circle-o" aria-hidden="true"></i>
+        </button>
+      </div>     
+      <div class="modal-body modal-body__modalthanks">
+        <div class="main-Modalthanks__img">
+          <img src="<?php echo get_template_directory_uri();?>/assets/img/page-1.svg" alt="">
+        </div>
+        <div class="main-modalthanks__title">
+          <p class="font-general">Gracias mercedes!</p>
+        </div>
+        <div class="main-modalthanks__description">
+          <p class="font-general">Empieza a completar los requisitos para ganar!</p>
+        </div>
+        <div class="main-modalThanks__btn">
+          <a href="" class="btn_custom btn--medium btn--filled">IR AL HOME</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 <script src='<?php echo get_template_directory_uri();?>/assets/js/jquery.min.js'></script>
 <script src='<?php echo get_template_directory_uri();?>/assets/js/bootstrap.min.js'></script>
 <script src='https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js'></script>

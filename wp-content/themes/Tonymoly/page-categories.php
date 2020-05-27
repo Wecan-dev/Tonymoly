@@ -1,12 +1,7 @@
 <?php get_header(); ?>
 <?php get_template_part('partials/header-general'); ?>
-<section class="main-categories">
+<section class="main-categories section-pb">
   <div class="">
-    <div class="main-title__between container">
-      <div class="main-title__general">
-        <p>Categorias populares</p>
-      </div>
-    </div>
     <div class="main_content-categories-w">
       <?php $args = array(
 

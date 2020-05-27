@@ -21,47 +21,58 @@ if ( ! defined( 'ABSPATH' ) ) {
 ?>
 
 <?php get_header(); ?>
-<section class="main-productfull">
-	<div class="container container__position">
-		<div class="main-productfull__content">
-			<div class="main-productfull__item">
-				<div class="main-productfull__img">
-					<img src="<?php echo get_template_directory_uri();?>/assets/img/ProductFull/1.jpg" alt="">
-				</div>
-				<div class="main-productFull__btn">
-					<a class="btn_custom btn--small btn--filled arrowsline" href="#">
-						Comprar      
-					</a>
-				</div>
-			</div>
-			<div class="main-productfull__item">
-				<div class="main-productfull__img">
-					<img src="<?php echo get_template_directory_uri();?>/assets/img/ProductFull/1.jpg" alt="">
-				</div>
-				<div class="main-productFull__btn">
-					<a class="btn_custom btn--small btn--filled arrowsline" href="#">
-						Comprar      
-					</a>
-				</div>
-			</div>
-			<div class="main-productfull__item">
-				<div class="main-productfull__img">
-					<img src="<?php echo get_template_directory_uri();?>/assets/img/ProductFull/1.jpg" alt="">
-				</div>
-				<div class="main-productFull__btn">
-					<a class="btn_custom btn--small btn--filled arrowsline" href="#">
-						Comprar      
-					</a>
-				</div>
-			</div>
-		</div>
+<?php get_template_part('partials/header-general'); ?>
+<section class="main-productfull main-productfull__filter">
+    <div class="container container__position">
+      <div class="main-productfull__content">
+        <div class="main-productfull__item">
+          <div class="main-productfull__img">
+            <img src="<?php echo get_template_directory_uri();?>/assets/img/blush.jpeg" alt="">
+          </div>
+          <div class="main-productFull__btn">
+            <a class="btn_custom btn--small btn--filled arrowsline" href="#">
+              Comprar      
+            </a>
+          </div>
+        </div>
+        <div class="main-productfull__item">
+          <div class="main-productfull__img">
+            <img src="<?php echo get_template_directory_uri();?>/assets/img/blush.jpeg" alt="">
+          </div>
+          <div class="main-productFull__btn">
+            <a class="btn_custom btn--small btn--filled arrowsline" href="#">
+              Comprar      
+            </a>
+          </div>
+        </div>
+        <div class="main-productfull__item">
+          <div class="main-productfull__img">
+            <img src="<?php echo get_template_directory_uri();?>/assets/img/blush.jpeg" alt="">
+          </div>
+          <div class="main-productFull__btn">
+            <a class="btn_custom btn--small btn--filled arrowsline" href="#">
+              Comprar      
+            </a>
+          </div>
+        </div>
+      </div>
 
-		<div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
-			<span class="slider__label sr-only">
-			</div>
-		</span>
-	</div>
-</section>
+      <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+        <span class="slider__label sr-only">
+        </div>
+      </span>
+      <div class="main-producttabs__filter">
+        <div class="main-productitem__filter">
+          <a class="font-general" href="">FILTRAR POR</a>
+          
+        </div>
+        <div class="main-productitem__filter">
+          <a class="font-general" href="">ORDENAR POR</a>
+          
+        </div>
+      </div>
+    </div>
+  </section>
 <?php
 
 wc_get_template( 'archive-product.php' );
