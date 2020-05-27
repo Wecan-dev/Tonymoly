@@ -770,5 +770,103 @@
 		text-align: left;
 		color: #1c1c1c;
 	}
+
+	.main-product__reviews{
+		box-shadow: 0px 3px 19px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+	}
+	.woocommerce-Reviews-title{
+		font-size: 18px;
+		font-weight: bold;
+		line-height: 1.27;
+		text-align: left;
+		color: #46362b;
+		position: relative;
+	}
+	.woocommerce-Reviews-title:after{
+		position: absolute;
+    content: '34';
+    background-color: #f65d77;
+    padding: 0.3rem 0.5rem;
+    color: #fff;
+    font-size: 10px;
+    border-radius: 5px;
+    right: 4rem;
+    top: -0.2rem;
+	}
+	.tabs.wc-tabs, #tab-description,#tab-additional_information,.comment-form-author label, .comment-form-comment label,
+	.comment-form-email label, .comment-form-cookies-consent,.comment-notes,#reply-title,.comment-form-email,
+	.comment-form-rating label{
+		display: none !important;
+	}
+	.comment_container img{
+		border-radius: 50%;
+	}
+	.comment-text p{
+		font-family: Muli;
+		font-size: 16px;
+		font-weight: 600;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.5;
+		letter-spacing: normal;
+		text-align: left;
+		color: #1c1c1c;
+	}
+	.comment-form-comment textarea,
+	.comment-form-author input{
+		height: 40px;
+		border-radius: 6px;
+		background-color: #f0f0ef;
+		border: 1px solid #f0f0ef;
+		width: 100%;
+		resize: none;
+	}
+	#commentform{
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.comment-form-comment{
+		margin-bottom: 0.5rem;
+		order: -2;
+	}
+	.comment-form-author{
+		order: -1;
+	}
+	.commentlist{
+		list-style: none;
+	}
+	.comment-form-comment textarea{
+		padding-top: 10px;
+		padding-left: 10px;	
+	}
+	.comment-form-comment textarea::placeholder{
+		font-family: Muli;
+		font-size: 12px;
+		font-weight: normal;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.25;
+		letter-spacing: normal;
+		text-align: left;
+		color: #46362b;
+	}
+	.form-submit input{
+		display: inline-block;
+		font-size: 14px !important;
+		text-align: center;
+		color: white;
+		text-decoration: none;
+		cursor: pointer;
+		user-select: none;
+		background: #f65d77 !important;
+		padding: 20px 30px !important;
+		color: #fff;
+		border: none;
+		border-radius: 5px;
+		line-height: 1px;
+		text-transform: uppercase !important;
+	}
+	
 }
 

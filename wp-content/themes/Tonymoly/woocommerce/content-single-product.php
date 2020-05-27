@@ -132,20 +132,11 @@ if ( post_password_required() ) {
 		<div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
 		</div>
 	</div>
-	<?php
-	/**
-	 * Hook: woocommerce_after_single_product_summary.
-	 *
-	 * @hooked woocommerce_output_product_data_tabs - 10
-	 * @hooked woocommerce_upsell_display - 15
-	 * @hooked woocommerce_output_related_products - 20
-	 */
-	do_action( 'woocommerce_after_single_product_summary' );
-	?>
+	
 </div>
 
 <?php do_action( 'woocommerce_after_single_product' ); ?>
-<section class="main-product">
+<section class="main-product summary entry-summary product-details__text">
   <div class="container">
     <div class="">
       <div class="main-title__general">
@@ -194,6 +185,21 @@ if ( post_password_required() ) {
   </div>
 </section>
 
+
+<section class="main-product summary entry-summary main-product__reviews">
+	<div class="container">
+		<?php
+	/**
+	 * Hook: woocommerce_after_single_product_summary.
+	 *
+	 * @hooked woocommerce_output_product_data_tabs - 10
+	 * @hooked woocommerce_upsell_display - 15
+	 * @hooked woocommerce_output_related_products - 20
+	 */
+	do_action( 'woocommerce_after_single_product_summary' );
+	?>
+	</div>
+</section>
 
 <section class="main-product pb-4">
   <div class="container">

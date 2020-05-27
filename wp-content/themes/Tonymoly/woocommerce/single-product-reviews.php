@@ -24,9 +24,9 @@ if ( ! comments_open() ) {
 }
 
 ?>
-<div id="reviews" class="woocommerce-Reviews">
+<div id="reviews" class="woocommerce-Reviews ">
 	<div id="comments">
-		<h2 class="woocommerce-Reviews-title">
+		<h2 class="woocommerce-Reviews-title font-general">
 			<?php
 			$count = $product->get_review_count();
 			if ( $count && wc_review_ratings_enabled() ) {
@@ -34,7 +34,7 @@ if ( ! comments_open() ) {
 				$reviews_title = sprintf( esc_html( _n( '%1$s review for %2$s', '%1$s reviews for %2$s', $count, 'woocommerce' ) ), esc_html( $count ), '<span>' . get_the_title() . '</span>' );
 				echo apply_filters( 'woocommerce_reviews_title', $reviews_title, $count, $product ); // WPCS: XSS ok.
 			} else {
-				esc_html_e( 'Reviews', 'woocommerce' );
+				esc_html_e( 'REVIEWS DE USUARIOS', 'woocommerce' );
 			}
 			?>
 		</h2>
@@ -78,7 +78,7 @@ if ( ! comments_open() ) {
 					'title_reply_before'  => '<span id="reply-title" class="comment-reply-title">',
 					'title_reply_after'   => '</span>',
 					'comment_notes_after' => '',
-					'label_submit'        => esc_html__( 'Submit', 'woocommerce' ),
+					'label_submit'        => esc_html__( 'Enviar', 'woocommerce' ),
 					'logged_in_as'        => '',
 					'comment_field'       => '',
 				);
@@ -131,7 +131,7 @@ if ( ! comments_open() ) {
 					</select></div>';
 				}
 
-				$comment_form['comment_field'] .= '<p class="comment-form-comment"><label for="comment">' . esc_html__( 'Your review', 'woocommerce' ) . '&nbsp;<span class="required">*</span></label><textarea id="comment" name="comment" cols="45" rows="8" required></textarea></p>';
+				$comment_form['comment_field'] .= '<p class="comment-form-comment"><label for="comment">' . esc_html__( 'Your review', 'woocommerce' ) . '&nbsp;<span class="required">*</span></label><textarea id="comment" name="comment" placeholder="Agregar un comentario" cols="45" rows="8" required></textarea></p>';
 
 				comment_form( apply_filters( 'woocommerce_product_review_comment_form_args', $comment_form ) );
 				?>
