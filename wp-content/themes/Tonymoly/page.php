@@ -2,8 +2,16 @@
 
 get_header(); ?>
 <?php get_template_part('partials/header-general'); ?>
-<div class="container">
+<div class="container generalPage">
 	
+	<div class="main-breadcrumb__general">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="<?php bloginfo('url'); ?>">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page"><?php the_title(); ?></li>
+      </ol>
+    </nav>
+  </div>
 
 
 	<?php
