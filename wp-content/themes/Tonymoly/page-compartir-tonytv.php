@@ -19,7 +19,7 @@
         <div class="form-group form-group--file">
           <p class="font-general text-center">Comparte un video o foto para TONY. <span>tv</span>, usando nuestros productos y participa en las premiaciones! </p>
           <div class="button-wrapper">
-
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/upload.png" alt="">
             <span class="label">
               Elegir archivos
             </span>
