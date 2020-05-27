@@ -110,10 +110,10 @@
 
         
         <li class='nav-item'>
-          <a href="" class="btn_custom btn--large btn--filled" data-toggle="modal" data-target="#Modallogout">Cerrar</a>
+          <a href="" class="btn_custom btn--supersmall btn--filled" data-toggle="modal" data-target="#Modallogout">Cerrar</a>
         </li>
         <li class='nav-item'>
-          <a href="" class="btn_custom btn--large btn--filled" data-toggle="modal" data-target="#ModalThanks">Gracias</a>
+          <a href="" class="btn_custom btn--supersmall btn--filled" data-toggle="modal" data-target="#ModalThanks">Gracias</a>
         </li>
        
 

@@ -33,8 +33,7 @@ ul.nav__list{
   
 }
 
-.nav a,
-.nav label span {
+.nav a {
   font-family: Muli;
   font-size: 16px;
   font-weight: 600;
@@ -91,6 +90,7 @@ ul.group-list{
 }
 
 .sub-group-list p{
+  font-family: Muli;
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
@@ -161,7 +161,7 @@ label > span {
 }
 
 .nav__list input[type=checkbox]:checked + label > span {
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
 
