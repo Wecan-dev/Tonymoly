@@ -85,6 +85,8 @@
     min-width: 85px;
     font-size: 16px;
     width: 100%;
+    display: flex;
+    justify-content: center;
   }
   .btn--supersmall{
     padding: 5px 12px 5px 14px;
