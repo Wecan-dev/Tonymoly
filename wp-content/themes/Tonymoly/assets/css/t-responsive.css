@@ -195,7 +195,10 @@
 		color: #f65d77 !important;
 		padding: 1px 5px 1rem 0;
 		font-size: 13px !important;
-	}
+		background-color: transparent !important;
+		box-shadow: none !important;
+		border-radius: 0px !important;
+		}
 	.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link{
 		text-transform: uppercase !important;
 		font-size: 13px !important;
@@ -205,6 +208,9 @@
 		text-transform: uppercase !important;
 		padding: 1px 5px 1rem 0;
 		font-size: 13px !important;
+		background-color: transparent !important;
+		box-shadow: none !important;
+		border-radius: 0px !important;
 	}
 	.main-descriptionstab__products .tab-content{
 		margin-top: 1rem;
