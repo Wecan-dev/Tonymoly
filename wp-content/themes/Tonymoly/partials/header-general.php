@@ -18,20 +18,24 @@
     </div>
 
     <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+    <?php if (is_user_logged_in()) : ?>
       <div class="main-navbar__profile">
         <div class="main-navbar__img">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/profile.png" alt="">
+          <img src="<?= get_avatar_url(wp_get_current_user()) ?>" alt="">
         </div>
         <div class="main-navbar__info">
           <div class="main-navbar__name">
-            <p>Hola Camila!</p>
+            <p>Hola <?= wp_get_current_user()->display_name ?>!</p>
           </div>
           <div class="main-navbar__complete">
             <span>Completa la información de perfil</span>
           </div>
         </div>
       </div>
+      <?php endif; ?>
+      
       <ul class="navbar-nav mr-auto">
+      <?php if (!is_user_logged_in()) : ?>
         <li class='nav-item'>
           <a class="btn_custom btn--medium btn--filledGray" href="<?php echo bloginfo('url'); ?>/iniciar-sesion">
             Iniciar Sesión    
@@ -40,10 +44,13 @@
             Registrarme   
           </a>
         </li>
+      <?php endif; ?>
+      <?php if (is_user_logged_in()) : ?>
         <li class='nav-item'>
           <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>/my-account'>My Account</a>
           <i class="fa fa-plus" aria-hidden="true"></i>
         </li>
+      <?php endif; ?>
         <li class='nav-item'>
           <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>/conviertete-en-distribuidor'>Quiero ser distribuidor</a>
           <i class="fa fa-plus" aria-hidden="true"></i>
@@ -108,10 +115,11 @@
           <i class="fa fa-plus" aria-hidden="true"></i>
         </li>
 
-        
+        <?php if (is_user_logged_in()) : ?>
         <li class='nav-item'>
           <a href="" class="btn_custom btn--supersmall btn--filled" data-toggle="modal" data-target="#Modallogout">Cerrar</a>
         </li>
+        <?php endif; ?>
         <li class='nav-item'>
           <a href="" class="btn_custom btn--supersmall btn--filled" data-toggle="modal" data-target="#ModalThanks">Gracias</a>
         </li>

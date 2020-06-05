@@ -187,7 +187,7 @@
 			<div class="main-modallogout__item">
 				<div class="main-modallogout__btns">
 					<a class="cancel" href="">Cancelar</a>
-					<a class="accept" href="">Aceptar</a>
+					<a class="accept" href="<?= wp_logout_url() ?>">Aceptar</a>
 				</div>
 			</div>
 		</div>
