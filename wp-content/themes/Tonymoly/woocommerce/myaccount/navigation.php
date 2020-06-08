@@ -23,11 +23,11 @@ do_action( 'woocommerce_before_account_navigation' );
 ?>
 <div class="main-navbar__profile">
         <div class="main-navbar__img">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/profile.png" alt="">
+          <img src="<?= get_avatar_url(wp_get_current_user()) ?>" alt="">
         </div>
         <div class="main-navbar__info">
           <div class="main-navbar__name">
-            <p>Hola Camila!</p>
+            <p>Hola <?= wp_get_current_user()->display_name ?>!</p>
           </div>
           <div class="main-navbar__complete">
             <span>Completa la información de perfil</span>

@@ -101,7 +101,18 @@ function custom_quantity_fields_script(){
 }
 
 
-
+// Ir a una página diferente de gracias
+ 
+add_action( 'template_redirect', 'wc_custom_redirect_after_purchase' ); 
+ 
+function wc_custom_redirect_after_purchase() {
+    global $wp;
+ 
+    if ( is_checkout() && ! empty( $wp->query_vars['order-received'] ) ) {
+        wp_redirect( 'http://localhost/Tonymoly/gracias/' ); // Cambiar por vuestra URL
+        exit;
+    }
+}
 
 
 // Register Custom Post Type
