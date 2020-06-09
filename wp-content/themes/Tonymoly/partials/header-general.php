@@ -56,11 +56,11 @@
           <i class="fa fa-plus" aria-hidden="true"></i>
         </li>
         <li class='nav-item'>
-          <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>/categories'>Cuidado de Facial</a>
+          <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>/cuidado-facial'>Cuidado de Facial</a>
           <i class="fa fa-plus" aria-hidden="true"></i>
         </li>
         <li class='nav-item'>
-          <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>/categories'>Maquillaje</a>
+          <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>/maquillaje'>Maquillaje</a>
           <i class="fa fa-plus" aria-hidden="true"></i>
         </li>
         <li class='nav-item'>
@@ -72,7 +72,7 @@
           <i class="fa fa-plus" aria-hidden="true"></i>
         </li>
         <li class='nav-item'>
-          <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>/categories'>Tipos de lineas</a>
+          <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>/lineas-de-producto'>Tipos de lineas</a>
           <i class="fa fa-plus" aria-hidden="true"></i>
         </li>
         <li class='nav-item'>

@@ -1868,4 +1868,29 @@
     border-color: #9b9b9b;
     box-shadow: none; 
    }
+   .main-bonos__title p{ 
+    font-family: Muli;
+    font-size: 15px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: #46362b;
+    margin-top: 1rem;
+    margin-bottom: 5px;
+   }
+   .main-bonos__description p{
+    opacity: 0.7;
+    font-family: Muli;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #46362b;
+   }
 }
