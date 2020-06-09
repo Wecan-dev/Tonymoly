@@ -1868,4 +1868,62 @@
     border-color: #9b9b9b;
     box-shadow: none; 
    }
+   .content-cliente--text h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #3e3e3e;  
+   }
+   .content-cliente--img img{
+    width: 100%
+   }
+   .content-cliente--text p{
+    font-size: .9rem;
+   }
+   .content-cliente--redes{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   }
+   .content-cliente--redes p{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #3e3e3e;
+    padding-bottom: 25px
+   }
+   .content-cliente--redes a{
+    font-size: 1rem;
+    color: #1c1c1c;
+    border: 1px solid #1c1c1c;
+    padding: 8px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: 500;
+   }
+   .content-cliente--btn{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 70px;
+   }
+   .btn-cliente--redes{
+    display: flex;
+    background: #e2f2f3;
+    padding: 8px 12px;
+    border-radius: 8px;
+    width: 45%;
+    justify-content: center;
+    
+   }
+   .btn-cliente--redes a{
+    color: #6bbdc4;
+    font-weight: 600;
+    font-size: 1rem;
+    border: none;
+    padding: 0;
+    text-transform: capitalize;
+   }
+   .btn-cliente--redes__mobile i{
+    color: #6bbdc4;
+    font-size: 1.4rem;
+    margin-right: 0.5rem;
+   }
 }
