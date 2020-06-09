@@ -1746,3 +1746,126 @@
   }
   
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 0px) and (max-width: 767px) {
+  .main-calificar__btn{
+    display: flex;
+    justify-content: space-between;
+  }
+  .btn--editar{
+    color: #4c4c4c;
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  .content-vacio__img, .content-vacio__text, .content-vacio__search{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .content-vacio__img img{
+    object-fit: contain;
+  }
+  .content-vacio__text{
+    color: #46362b;
+  }
+  .content-vacio__text h3{
+    font-size: 1.5rem;
+  }
+  .content-vacio__text p{
+    opacity: 0.8;
+  }
+  .content-vacio__search a{
+    color: #1c1c1c;
+    border: 1px solid #1c1c1c;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  .calificar-vacio__content .content-vacio__img{
+    padding-bottom: 20px;
+  }
+  .calificar-vacio__content .content-vacio__text{
+    color: #1c1c1c;
+  }
+  .calificar-vacio__content .content-vacio__text h3{
+    font-size: 1.2rem;
+  }
+  .calificar-vacio__content .content-vacio__text p{
+    font-size: .9rem;
+  }
+  .buscardor{
+    background: #f2f2f2;
+  }
+  .input-search{
+    display: flex;
+  }
+  .input-search input{
+    border-left: none;
+    border-color: #9b9b9b;
+  }
+  .input-search input:focus{
+    outline: none;
+    box-shadow: none;
+    border-color: #9b9b9b;
+  }
+  .input-search button{
+    border-right: none;
+    margin-right: -8px;
+    background: #fff;
+    color: #000;
+    border-color: #9b9b9b;
+  }
+  .input-search button:focus, .input-search button:hover, .input-search button:active{
+    background: #fff;
+    color: #000;
+    border-color: #9b9b9b;
+    box-shadow: none;
+  }
+  .btn-outline-success:not(:disabled):not(.disabled).active,
+   .btn-outline-success:not(:disabled):not(.disabled):active,
+   .show>.btn-outline-success.dropdown-toggle{
+      background: #fff;
+    color: #000;
+    border-color: #9b9b9b;
+    box-shadow: none; 
+   }
+}

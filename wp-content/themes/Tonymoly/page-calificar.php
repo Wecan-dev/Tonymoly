@@ -1,11 +1,10 @@
 <?php get_header(); ?>
-<?php get_template_part('partials/header-general'); ?>
 
   <section class="wishlist section-pb">
     <div class="container">
     <div class="">
       <div class="main-title__general main-title__general--large">
-        <p> Tienes 17 productos</p>
+        <p>4 productos por calificar</p>
       </div>
       <div class="main-description__general">
         <p>No dejes que se agoten estos productos!</p>
@@ -16,9 +15,6 @@
       <div class="main-wishlist__item">
         <div class="main-wishlist__img">
           <img src="https://images.unsplash.com/photo-1562887245-138c2f45013e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="">
-          <div class="main-wishlist__smallicon">
-            <i class="fa fa-times" aria-hidden="true"></i>
-          </div>
         </div>
         <div class="main-wishlist__box">
           <div class="main-iconclose">
@@ -34,9 +30,12 @@
             <p class="font-general"><strong>$50.99</strong> <span>12.690 </span></p>
             <p class="font-general">Color rosado</p>
           </div>
-          <div class="main-wishlist__btn">
+          <div class="main-wishlist__btn main-calificar__btn">
             <a class="btn_custom btn--supersmall btn--filled" href="#">
-            Mover al Carrito
+              CALIFICAR
+            </a>
+            <a class="btn--editar" href="">
+              Editar
             </a>
           </div>
         </div>
@@ -44,9 +43,6 @@
       <div class="main-wishlist__item">
         <div class="main-wishlist__img">
           <img src="https://images.unsplash.com/photo-1562887085-22edc4817a9e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="">
-          <div class="main-wishlist__smallicon">
-            <i class="fa fa-times" aria-hidden="true"></i>
-          </div>
         </div>
         <div class="main-wishlist__box">
           <div class="main-iconclose">
@@ -62,9 +58,12 @@
             <p class="font-general"><strong>$50.99</strong> <span>12.690 </span></p>
             <p class="font-general">Color rosado</p>
           </div>
-          <div class="main-wishlist__btn">
-            <a class="btn_custom btn--supersmall btn--filled" href="#">
-            Mover al Carrito
+          <div class="main-wishlist__btn main-calificar__btn">
+            <a class="btn_custom btn--supersmall btn--filled " href="#">
+            calificar
+            </a>
+            <a class="btn--editar" href="">
+              Editar
             </a>
           </div>
         </div>
