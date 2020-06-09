@@ -282,13 +282,13 @@
     align-items: center;
   }
 
-  .navbar-nav .nav-item:nth-child(1){
+  /* .navbar-nav .nav-item:nth-child(1){
     padding:0.3rem;
     border-bottom: 2px solid rgba(163, 163, 163, 0.32);
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
+  } */
 
   .main-navbar__name p, .main-navbar__complete span{
     font-family: Muli;

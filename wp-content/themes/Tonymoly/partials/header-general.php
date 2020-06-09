@@ -52,43 +52,31 @@
         </li>
       <?php endif; ?>
         <li class='nav-item'>
-          <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>/conviertete-en-distribuidor'>Quiero ser distribuidor</a>
-          <i class="fa fa-plus" aria-hidden="true"></i>
-        </li>
-        <li class='nav-item'>
-          <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>/refiere-y-gana'>Refiere y gana dinero</a>
-          <i class="fa fa-plus" aria-hidden="true"></i>
-        </li>
-        <li class='nav-item'>
-          <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>/wishlist'>Wishlist</a>
-          <i class="fa fa-plus" aria-hidden="true"></i>
-        </li>
-        <li class='nav-item'>
-          <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>/recoger-cupones'>Recoger cupones</a>
-          <i class="fa fa-plus" aria-hidden="true"></i>
-        </li>
-        <li class='nav-item'>
           <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>/categories'>Categoria</a>
           <i class="fa fa-plus" aria-hidden="true"></i>
         </li>
         <li class='nav-item'>
-          <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>/tonytv'>TONY.tv</a>
+          <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>/categories'>Cuidado de Facial</a>
           <i class="fa fa-plus" aria-hidden="true"></i>
         </li>
         <li class='nav-item'>
-          <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>/compartir-tonytv'>Compartir en TONY.tv</a>
+          <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>/categories'>Maquillaje</a>
           <i class="fa fa-plus" aria-hidden="true"></i>
         </li>
         <li class='nav-item'>
-          <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>/concursos'>Concursos</a>
+          <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>/categories'>Fun products</a>
           <i class="fa fa-plus" aria-hidden="true"></i>
         </li>
         <li class='nav-item'>
-          <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>/ofertas'>Ofertas y Promociones</a>
+          <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>/categories'>Mascarillas</a>
           <i class="fa fa-plus" aria-hidden="true"></i>
         </li>
         <li class='nav-item'>
-          <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>/blog'>Blog</a>
+          <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>/categories'>Tipos de lineas</a>
+          <i class="fa fa-plus" aria-hidden="true"></i>
+        </li>
+        <li class='nav-item'>
+          <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>/categories'>Kits</a>
           <i class="fa fa-plus" aria-hidden="true"></i>
         </li>
         <li class='nav-item'>
@@ -99,7 +87,45 @@
           <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>'>Productos mas vendido</a>
           <i class="fa fa-plus" aria-hidden="true"></i>
         </li>
-
+        <li class='nav-item'>
+          <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>/ofertas'>Ofertas y Promociones</a>
+          <i class="fa fa-plus" aria-hidden="true"></i>
+        </li>
+        <li class='nav-item'>
+          <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>/conviertete-en-distribuidor'>Quiero ser distribuidor</a>
+          <i class="fa fa-plus" aria-hidden="true"></i>
+        </li>
+        <li class='nav-item'>
+          <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>/refiere-y-gana'>Refiere y gana dinero</a>
+          <i class="fa fa-plus" aria-hidden="true"></i>
+        </li>
+        <li class='nav-item'>
+          <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>/concursos'>Concursos</a>
+          <i class="fa fa-plus" aria-hidden="true"></i>
+        </li>
+         
+        <li class='nav-item'>
+          <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>/blog'>Blog</a>
+          <i class="fa fa-plus" aria-hidden="true"></i>
+        </li>
+        <li class='nav-item'>
+          <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>/tonytv'>TONY.tv</a>
+          <i class="fa fa-plus" aria-hidden="true"></i>
+        </li>
+        <li class='nav-item'>
+          <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>/recoger-cupones'>Recoger cupones</a>
+          <i class="fa fa-plus" aria-hidden="true"></i>
+        </li>
+        <li class='nav-item'>
+          <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>/wishlist'>Wishlist</a>
+          <i class="fa fa-plus" aria-hidden="true"></i>
+        </li>
+        
+        <li class='nav-item'>
+          <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>/compartir-tonytv'>Compartir en TONY.tv</a>
+          <i class="fa fa-plus" aria-hidden="true"></i>
+        </li>
+      
 
         <li class='nav-item'>
           <a class='nav-link scroll-link' href='<?php echo bloginfo('url'); ?>'>Home</a>
